@@ -1,0 +1,72 @@
+DIARIO DI UN ANALISTA
+
+Chi Siamo
+Un diario virtuale di appunti personali
+Ecco cosa è questo sito web. Nasce come una raccolta personale di pensieri e tecniche che ho avuto e incontrato durante gli anni di lavoro.
+
+Metto a disposizione ora questo materiale al lettore, che può usare il contenuto che legge per i suoi progetti personali o di lavoro.
+
+Come io ho trovato ispirazione e guida nei blog di settore, trovo giusto condividere le mie conoscenze per continuare questo ciclo virtuoso.
+
+Una delle sfide più grandi che ho affrontato durante la mia carriera è stata quella di trovare l'orientamento giusto nel mare magnum di informazioni che circondano il machine learning e il data science.
+
+‍Se ti senti perso, smarrito, ma sei determinato a perseguire la tua carriera nel data science, allora il contenuto di questo sito fa per te.
+Allo stesso tempo, penso tu ne possa beneficiare allo stesso modo se cerchi soluzioni veloci a problemi ben definiti.
+
+Soluzioni offerte
+Di seguito le attività che offerte dallo staff.
+
+Consulenza
+Puoi metterti in contatto con me per una consulenza sul tuo progetto di data science, analytics e machine learning.
+
+Formazione
+Le mie consulenze spesso si trasformano in veri e propri corsi, sia per team interni o esterni all'azienda. Mi dedico anche a insegnare corsi relativi al data science in master di formazione professionale.
+
+Affiliazioni
+Questo blog utilizza il modello di affiliazione per sostenersi. Troverete risorse che punteranno a negozi online come Amazon. Se comprerete un articolo da me raccomandato io riceverò una commissione dal rivenditore, senza togliere nulla alla vostra esperienza di acquisto.‍
+
+Se il lettore è interessato a propormi una partnership, è invogliato a contattarmi per discutere dei dettagli.
+
+Link utili
+Privacy Policy
+
+Scopri lo staff
+Scopri lo staff di autori e contributori al blog.
+
+Andrea D'Agostino
+Fondatore e autore
+
+
+
+Ciao! Sono Andrea, data scientist che lavora nel settore del marketing e business intelligence con oltre 6 anni di esperienza a lavorare con grossi clienti su progetti di data science.
+
+Copro la posizione di Head of Data Science in DigiTrails, dove mi occupo di definire, organizzare e implementare sistemi di machine learning per la business intelligence.
+
+Sei interessato ad una consulenza in ambito Data Science o Machine Learning?
+
+Sono laureato in neuroscienze cognitive e applico la mia conoscenza nel settore del marketing perché c'è una sovrapposizione utile tra comportamento umano e disponibilità di dati.
+
+Leggi tutti gli articoli di Andrea D'Agostino qui
+
+Andrea D’Agostino - Diario Di Un Analista | Data Science, Machine Learning & Analytics
+Data scientist con 6 anni di esperienza nell’applicare tecniche di data science per aiutare i clienti a risolvere problemi nei loro asset e a sfruttare le debolezze dei competitor a loro vantaggio.
+
+Diario Di Un Analista | Data Science, Machine Learning & Analytics
+Inizia Qui
+
+Marco Speciale
+Autore
+
+
+Studente di Data Science presso l’universita degli studi di Palermo. Appassionato di numeri e analisi dei dati, mi dedico a esplorare il mondo affascinante della Data Science, aprendo nuove prospettive e affrontando sfide con entusiasmo.
+
+Seguitemi in questo viaggio di scoperte e successi nel mondo dei dati!
+
+Collegati con me su LinkedIn
+
+Leggi tutti gli articoli di Marco Speciale
+
+Marco Speciale - Diario Di Un Analista | Data Science, Machine Learning & Analytics
+
+Diario Di Un Analista | Data Science, Machine Learning & Analytics
+Inizia Qui

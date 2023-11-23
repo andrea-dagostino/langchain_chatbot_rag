@@ -1,7 +1,3 @@
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
-
 import streamlit as st
 import pandas as pd
 
@@ -10,7 +6,7 @@ import os
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.document_loaders import DataFrameLoader
 from langchain.embeddings import OpenAIEmbeddings, HuggingFaceInstructEmbeddings
-from langchain.vectorstores import Chroma
+from langchain.vectorstores import Chroma, FAISS
 from langchain.chat_models import ChatOpenAI
 from langchain.llms import HuggingFaceHub
 from langchain.memory import ConversationBufferMemory
@@ -49,7 +45,7 @@ def get_text_chunks(all_articles, all_links):
 
 def get_vectorstore():
     embeddings = OpenAIEmbeddings()
-    if not os.path.exists("./chroma_db"):
+    if not os.path.exists("./db"):
         print("CREATING DB")
          # load data
         articles = pd.read_csv("./data/articles.csv")
@@ -68,14 +64,17 @@ def get_vectorstore():
             link = doc.metadata["url"]
             final_content = f"TITOLO: {title}\nDESCRIZIONE: {description}\nCONTENUTO: {content}\nLINK: {link}"
             doc.page_content = final_content
-        vectorstore = Chroma.from_documents(
-            text_chunks, embeddings, persist_directory="./chroma_db"
+
+        vectorstore = FAISS.from_documents(
+            text_chunks, embeddings
         )
+        vectorstore.save_local("./db")
     else:
         print("Loading vectorstore from disk")
-        vectorstore = Chroma(
-            persist_directory="./chroma_db", embedding_function=embeddings
-        )
+        # vectorstore = FAISS(
+        #     persist_directory="./db", embedding_function=embeddings
+        # )
+        vectorstore = FAISS.load_local("./db", embeddings)
     return vectorstore
 
 

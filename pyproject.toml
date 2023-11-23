@@ -18,17 +18,9 @@ ruff = "^0.1.6"
 chromadb = "^0.4.18"
 tiktoken = "^0.5.1"
 instructorembedding = "^1.0.1"
+faiss-cpu = "^1.7.4"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-[[[tool.poetry.source]]
-name = "pypi-public"
-url = "https://pypi.org/simple/"
-default = true
-
-[[tool.poetry.source]]
-name = "pysqlite3-binary"
-url = "https://pypi.org/project/pysqlite3-binary/"

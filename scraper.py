@@ -2,7 +2,7 @@ import time
 import pandas as pd
 from tqdm import tqdm
 from trafilatura.sitemaps import sitemap_search
-from trafilatura import fetch_url, extract
+from trafilatura import fetch_url, extract, extract_metadata
 
 
 def get_urls_from_sitemap(resource_url: str) -> list:
@@ -18,9 +18,9 @@ def extract_article(url: str) -> dict:
     Estrae un articolo da una URL con Trafilatura
     """
     downloaded = fetch_url(url)
-    article = extract(downloaded, favor_precision=True)
-
-    return article
+    article = extract(downloaded, favor_precision=True, only_with_metadata=True)
+    metadata = extract_metadata(downloaded)
+    return article, metadata
 
 
 def create_dataset(list_of_websites: list) -> pd.DataFrame:
@@ -31,7 +31,15 @@ def create_dataset(list_of_websites: list) -> pd.DataFrame:
     for website in tqdm(list_of_websites, desc="Websites"):
         urls = get_urls_from_sitemap(website)
         for url in tqdm(urls, desc="URLs"):
-            d = {"url": url, "article": extract_article(url)}
+            article, metadata = extract_article(url)
+            d = {
+                "url": url,
+                "article": article,
+                "title": metadata.title,
+                "description": metadata.description,
+                "author": metadata.author,
+                "date": metadata.date,
+            }
             data.append(d)
             time.sleep(0.5)
 

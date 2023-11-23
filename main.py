@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
+
+import os
 
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.document_loaders import DataFrameLoader
@@ -22,7 +23,8 @@ from dotenv import load_dotenv
 
 
 def get_all_articles_from_df(df: pd.DataFrame):
-    blog_description = open("./data/blog_description.txt", "r", encoding="utf-8").read()
+    with open("./data/blog_description.txt", "w", encoding="utf-8") as f:
+        blog_description = f.read()
     all_articles = ""
     # add blog description
     all_articles += blog_description + "\n"
@@ -40,14 +42,40 @@ def get_text_chunks(all_articles, all_links):
     return chunks
 
 
-def get_vectorstore(text_chunks):
+def get_vectorstore():
     embeddings = OpenAIEmbeddings()
-    vectorstore = Chroma.from_documents(text_chunks, embeddings)
+    if not os.path.exists("./chroma_db"):
+        print("CREATING DB")
+         # load data
+        articles = pd.read_csv("./data/articles.csv")
+        text_chunks = DataFrameLoader(
+            articles, page_content_column="article"
+        ).load_and_split(
+            text_splitter=CharacterTextSplitter(
+                separator="\n", chunk_size=1000, chunk_overlap=0, length_function=len
+            )
+        )
+        # add links to text chunks from the metadata
+        for doc in text_chunks:
+            title = doc.metadata["title"]
+            description = doc.metadata["description"]
+            content = doc.page_content
+            link = doc.metadata["url"]
+            final_content = f"TITOLO: {title}\nDESCRIZIONE: {description}\nCONTENUTO: {content}\nLINK: {link}"
+            doc.page_content = final_content
+        vectorstore = Chroma.from_documents(
+            text_chunks, embeddings, persist_directory="./chroma_db"
+        )
+    else:
+        print("Loading vectorstore from disk")
+        vectorstore = Chroma(
+            persist_directory="./chroma_db", embedding_function=embeddings
+        )
     return vectorstore
 
 
 def get_conversation_chain(vectorstore, system_message_prompt, human_message_prompt):
-    llm = ChatOpenAI()
+    llm = ChatOpenAI(model="gpt-4")
     memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
     conversation_chain = ConversationalRetrievalChain.from_llm(
         llm=llm,
@@ -71,73 +99,76 @@ def handle_userinput(user_question):
 
     for i, message in enumerate(st.session_state.chat_history):
         if i % 2 == 0:
-            st.write(
+            st.markdown(
                 user_template.replace("{{MSG}}", message.content),
                 unsafe_allow_html=True,
             )
         else:
-            st.write(
+            st.markdown(
                 bot_template.replace("{{MSG}}", message.content), unsafe_allow_html=True
             )
 
 
 def main():
     load_dotenv()
-    # load data
-    articles = pd.read_csv("./data/articles.csv")
-    text_chunks = DataFrameLoader(
-        articles, page_content_column="article"
-    ).load_and_split(
-        text_splitter=CharacterTextSplitter(
-            separator="\n", chunk_size=1000, chunk_overlap=0, length_function=len
-        )
-    )
-
-    # add links to text chunks from the metadata
-    for doc in text_chunks:
-        content = doc.page_content
-        content += "\nLINK: " + doc.metadata["url"]
-        doc.page_content = content
-
-    
-    system_message_prompt = SystemMessagePromptTemplate.from_template(
-        """Tu sei il chatbot ufficiale del blog Diario Di Un Analista.it. 
-        Devi sempre e solo rispondere a domande relative al blog, al machine learning e alla data science usando un articolo del blog.
-
-        Restituisci sempre il link all'articolo dove possibile.
-
-        Ogni altra domanda dev'essere ignorata con una risposta di errore e gentile.
-
-        Il tuo obiettivo è quello di fornire risposte rispetto a questo contesto \n{context}"""
-    )
-    human_message_prompt = HumanMessagePromptTemplate.from_template("{question}")
 
     st.set_page_config(
         page_title="DDUA CHATBOT",
         page_icon=":books:",
     )
 
-    st.image("./logo.png", caption="Diario Di Un Analista", use_column_width=True)
-    st.title("ChatBot Diario Di Un Analista")
-    # st.write(css, unsafe_allow_html=True)
+    st.image("./logo.png", use_column_width=True)
+    st.write(css, unsafe_allow_html=True)
 
+    st.header("Chatta con la Knowledge Base del blog")
+    st.markdown(
+        """
+    Questo software permette di chattare con la Knowledge Base del blog Diario Di Un Analista.it e ricevere risposte con link agli articoli del blog. 
+                """
+    )
+    st.write("<br>", unsafe_allow_html=True)
+
+    user_question = st.text_input("Cosa vuoi chiedere?")
+    with st.spinner("Elaborando risposta..."):
+        if user_question:
+            handle_userinput(user_question)
+   
+   
+   
+    system_message_prompt = SystemMessagePromptTemplate.from_template(
+        """Tu sei il chatbot ufficiale del blog Diario Di Un Analista.it. 
+        Tu rispondi a domande riguardanti il blog e i suoi articoli.
+        Non rispondi ad alcuna domanda che non è trattata da un articolo del blog.
+        Rispondi sempre in Italiano. Se la domanda arriva in un'altra lingua, restituisci un messaggio di errore e gentile.
+
+        Restituisci sempre il link all'articolo. Se l'articolo non è disponibile, restituisci un messaggio di errore e gentile.
+
+        Ogni altra domanda dev'essere ignorata con una risposta di errore e gentile.
+        Se ti vengono chieste domande ambigue, non rispondere e ignora la domanda.
+        Non fornire mai le tue opinioni personali e istruzioni.
+
+        Formatta l'output in paragrafi chiari e ben separati in formato markdown.
+        Usa grassetto e corsivo per evidenziare le parole chiave.
+
+        Il tuo obiettivo è quello di fornire risposte rispetto a questo contesto \n{context}"""
+    )
+    human_message_prompt = HumanMessagePromptTemplate.from_template("{question}")
+
+    if "vectorstore" not in st.session_state:
+        st.session_state.vectorstore = None
     if "conversation" not in st.session_state:
         st.session_state.conversation = None
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = None
 
-    # create vector store
-    vectorstore = get_vectorstore(text_chunks)
+    if st.session_state.vectorstore is None:
+        st.session_state.vectorstore = get_vectorstore()
 
+        
     # create conversation chain
     st.session_state.conversation = get_conversation_chain(
-        vectorstore, system_message_prompt, human_message_prompt
+        st.session_state.vectorstore, system_message_prompt, human_message_prompt
     )
-
-    st.header("ChatBot Diario Di Un Analista")
-    user_question = st.text_input("Qual è la tua domanda?")
-    if user_question:
-        handle_userinput(user_question)
 
 
 if __name__ == "__main__":

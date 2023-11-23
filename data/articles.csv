@@ -1,15 +1,4 @@
-url,article
-https://www.diariodiunanalista.it,"Cosa è l'IA generativa e perché sta ridefinendo i confini del possibile attraverso tecnologie che permettono alle macchine non solo di apprendere ma anche di creare
-Concetti e tecniche di Data Science, Machine Learning & Analytics
-Ricevi aggiornamenti su nuove pubblicazioni e news via email
-Articoli scelti per te
-Una guida introduttiva agli algoritmi di clustering: cosa sono, quali sono, perché sono importanti e come valutarli nel contesto dell'analisi dei dati e la data science
-Impara come usare la PCA in Python e Sklearn per trasformare un dataset multidimensionale in un numero arbitrario di dimensioni e visualizzare i dati ridotti con Matplotlib
-Una guida a servire un modello di machine learning via API con FastAPI, Pydantic e Sklearn
-L'apprendimento non supervisionato è una branca fondamentale dell'analisi dei dati che si concentra sulla scoperta di strutture nascoste nei dati senza la presenza di etichette di output.
-Il data leakage rappresenta, insieme all'over/underfitting, la causa principale di fallimento di progetti di machine learning che vanno in produzione. Scopri come evitarlo in questo articolo.
-Deep Learning e MNIST: Come utilizzare una rete neurale convolutiva per il riconoscimento di immagini
-Come approcciare al riconoscimento delle immagini e delle cifre MNIST con una rete neurale convolutiva usando Keras e TensorFlow"
+url,article,title,description,author,date
 https://www.diariodiunanalista.it/about/,"Un diario virtuale di appunti personali
 Ecco cosa è questo sito web. Nasce come una raccolta personale di pensieri e tecniche che ho avuto e incontrato durante gli anni di lavoro.
 Metto a disposizione ora questo materiale al lettore, che può usare il contenuto che legge per i suoi progetti personali o di lavoro.
@@ -40,13 +29,13 @@ Marco Speciale
 Autore
 Studente di Data Science presso l’universita degli studi di Palermo. Appassionato di numeri e analisi dei dati, mi dedico a esplorare il mondo affascinante della Data Science, aprendo nuove prospettive e affrontando sfide con entusiasmo.
 Seguitemi in questo viaggio di scoperte e successi nel mondo dei dati!
-Leggi tutti gli articoli di Marco Speciale"
+Leggi tutti gli articoli di Marco Speciale",Chi Siamo,"Il Diario Di Un Analista è un blog di contenuti di data science, machine learning e data analytics. Consulenza data science e formazione ad-hoc.",Andrea D'Agostino,2022-10-11
 https://www.diariodiunanalista.it/account/,"Ti sei iscritto con successo a Diario Di Un Analista | Data Science, Machine Learning & Analytics
 Ben tornato! Hai effettuato l’accesso con successo.
 Ottimo! Ti sei registrato con successo.
 Successo! La tua email è stata aggiornata.
 Il tuo link è scaduto
-Successo! Controlla la tua casella di posta per il link magico per accedere."
+Successo! Controlla la tua casella di posta per il link magico per accedere.",Account,"Blog di guide e tecniche per i tuoi progetti di Data Science e Machine Learning. Consigli su progetti e carriera. Newsletter di settore su IA, tech e LLM.",Andrea D'Agostino,2023-04-28
 https://www.diariodiunanalista.it/author/andrea-dagostino/,"Cosa è l'IA generativa e perché sta ridefinendo i confini del possibile attraverso tecnologie che permettono alle macchine non solo di apprendere ma anche di creare
 Andrea D'Agostino
 Data scientist con 6 anni di esperienza nell'applicare tecniche di data science per aiutare i clienti a risolvere problemi nei loro asset e a sfruttare le debolezze dei competitor a loro vantaggio.
@@ -57,13 +46,13 @@ Impara come usare la PCA in Python e Sklearn per trasformare un dataset multidim
 Una guida a servire un modello di machine learning via API con FastAPI, Pydantic e Sklearn
 Il data leakage rappresenta, insieme all'over/underfitting, la causa principale di fallimento di progetti di machine learning che vanno in produzione. Scopri come evitarlo in questo articolo.
 Una lista di software utili per la gestione di progetti di data science e la raccolta di idee e contenuti
-Fai scelte intelligenti per la tua strategia aziendale: quando utilizzare il machine learning e quando optare per soluzioni più semplici. Esplora i vantaggi e le sfide dell'adozione dei modelli di apprendimento automatico per prendere decisioni informate"
+Fai scelte intelligenti per la tua strategia aziendale: quando utilizzare il machine learning e quando optare per soluzioni più semplici. Esplora i vantaggi e le sfide dell'adozione dei modelli di apprendimento automatico per prendere decisioni informate","Andrea D'Agostino - Diario Di Un Analista | Data Science, Machine Learning & Analytics",Data scientist con 6 anni di esperienza nell'applicare tecniche di data science per aiutare i clienti a risolvere problemi nei loro asset e a sfruttare le debolezze dei competitor a loro vantaggio.,Andrea D'Agostino,2023-01-01
 https://www.diariodiunanalista.it/author/marco-speciale/,"L'apprendimento non supervisionato è una branca fondamentale dell'analisi dei dati che si concentra sulla scoperta di strutture nascoste nei dati senza la presenza di etichette di output.
 Marco Speciale
 2 post
 Deep Learning e MNIST: Come utilizzare una rete neurale convolutiva per il riconoscimento di immagini
-Come approcciare al riconoscimento delle immagini e delle cifre MNIST con una rete neurale convolutiva usando Keras e TensorFlow"
-https://www.diariodiunanalista.it/contact/,"Diario Di Un Analista | Data Science, Machine Learning & Analytics — Contatti Contatti Invia messaggio"
+Come approcciare al riconoscimento delle immagini e delle cifre MNIST con una rete neurale convolutiva usando Keras e TensorFlow","Marco Speciale - Diario Di Un Analista | Data Science, Machine Learning & Analytics","Blog di guide e tecniche per i tuoi progetti di Data Science e Machine Learning. Consigli su progetti e carriera. Newsletter di settore su IA, tech e LLM.",Marco Speciale,2023-07-24
+https://www.diariodiunanalista.it/contact/,"Diario Di Un Analista | Data Science, Machine Learning & Analytics — Contatti Contatti Invia messaggio",Contatti,"Blog di guide e tecniche per i tuoi progetti di Data Science e Machine Learning. Consigli su progetti e carriera. Newsletter di settore su IA, tech e LLM.",Andrea D'Agostino,2022-10-11
 https://www.diariodiunanalista.it/glossario/,"Le informazioni in questa pagina sono in continuo aggiornamento.
 Accuratezza
 L'accuratezza è una metrica di valutazione delle performance di un modello di machine learning. Misura il numero di osservazioni correttamente predette sul numero di osservazioni totali.
@@ -141,7 +130,7 @@ Nel machine learning, un modello è una rappresentazione matematica di un fenome
 Overfitting
 La metrica di valutazione del modello rimane uguale o peggiora mentre aumenta nel training set. Il nostro modello impara sempre meglio i dati di training, ma la sua performance non migliora sul test set. Questo porta il modello a non generalizzare bene per dati non appartenenti al training set.
 Rasoio di Occam
-La spiegazione più semplice è potenzialmente quella corretta. Nel machine learning, quando il nostro modello non obedisce al rasoio di Occam, questo sta probabilmente overfittando."
+La spiegazione più semplice è potenzialmente quella corretta. Nel machine learning, quando il nostro modello non obedisce al rasoio di Occam, questo sta probabilmente overfittando.",Glossario,"Glossario di termini relativi al machine learning, data science, deep learning, apprendimento automatico. Diario Di Un Analista | Consulenze & Formazione",Andrea D'Agostino,2022-11-29
 https://www.diariodiunanalista.it/inizia-qui/,"Stai iniziando il tuo percorso con Python, Machine Learning e Data Analytics?
 Questa pagina ti fornirà il percorso ideale in base al contenuto presente in questo blog
 Ogni sezione riporterà gli articoli più idonei per il livello e gli obiettivi del lettore.
@@ -196,7 +185,7 @@ Diventa membro della community
 Newsletter bisettimanale su news e tech di settore
 Nessuno spam. Disiscriviti quando vuoi.
 Segui il blog sui social
-Se ti piace il contenuto proposto in questo blog, assicurati di seguire i canali social"
+Se ti piace il contenuto proposto in questo blog, assicurati di seguire i canali social",Inizia qui con il Machine Learning e Analisi Dati,"Stai iniziando il tuo percorso con Python, Machine Learning e Data Analytics? Questa pagina ti fornirà il percorso ideale in base al contenuto presente in questo blog Ogni sezione riporterà gli articoli più idonei per il livello e gli obiettivi del lettore. Ogni sezione sarà inoltre aggiornata ad ogni nuova",Andrea D'Agostino,2023-04-13
 https://www.diariodiunanalista.it/materiale-educativo/,"Materiale Educativo
 Lsta delle risorse educative vettate dallo staff per formarti nel campo della Data Science e Machine Learning
 In questa pagina troverai una lista delle risorse educative vettate dallo staff per formarti nel campo della Data Science e Machine Learning.
@@ -215,7 +204,7 @@ Corso di Deep Learning con Fast.ai e PyTorch
 NeuroMatch Academy: Deep Learning
 Corso di Deep Reinforcement Learning di Huggingface
 Repository Git
-Documenti, articoli e blog curati su data science e machine learning in produzione"
+Documenti, articoli e blog curati su data science e machine learning in produzione",Materiale Educativo,Rassegna e liste dedicate alla formazione nella data science e machine learning,Andrea D'Agostino,2023-07-02
 https://www.diariodiunanalista.it/newsletter/,"Questo è l'archivio della nostra newsletter settimanale consegnata settimanalmente. Ci piacerebbe tanto che ti unissi a noi!
 🎺
 Gli argomenti vengono più importanti di settore vengono sintentizzati in brevi paragrafi e elenchi in modo che tu possa assimilarli e comprenderli nella maniera più veloce possibile, senza sovraccaricarti.
@@ -225,7 +214,7 @@ Puoi sfogliare i rilasci precedenti per farti una idea del contenuto che ricever
 Puoi sfogliare i rilasci precedenti per farti una idea del contenuto che riceverai!
 Forniamo un riepilogo settimanale delle migliori notizie sulIa IA e sugli avanzamenti tecnologici divise in due newsletter dedicate
 Consegnate ogni mercoledì e sabato rispettivamente nella tua casella di posta.
-No spam. Disiscriviti quando vuoi."
+No spam. Disiscriviti quando vuoi.",Archivio Newsletter,"Questo è l'archivio della nostra newsletter settimanale consegnata settimanalmente. Ci piacerebbe tanto che ti unissi a noi! 🎺Gli argomenti vengono più importanti di settore vengono sintentizzati in brevi paragrafi e elenchi in modo che tu possa assimilarli e comprenderli nella maniera più veloce possibile, senza sovraccaricarti. È quindi un formato",Andrea D'Agostino,2023-10-20
 https://www.diariodiunanalista.it/posts/5-strumenti-per-avanzare-nella-carriera-di-data-scientist/,"La data science non è solo caratterizzata da strumenti relativi al codice.
 VSCode, PyCharm o EMACS / VIM non sono gli unici strumenti che un analista si deve preoccupare di usare per soddisfare le esigenze professionali.
 In questo articolo parlerò di strumenti gestionali, per la comunicazione e l'organizzazione di conoscenza.
@@ -311,7 +300,7 @@ Solo contenuto utile per la tua carriera nel ML e DS.
 Puoi rimuovere l'iscrizione quando vuoi seguendo il link nella email.
 A presto,
 Andrea
-Commenti dalla community"
+Commenti dalla community",5 strumenti per avanzare nella carriera di data scientist,Una lista di software utili per la gestione di progetti di data science e la raccolta di idee e contenuti,Andrea D'Agostino,2023-07-22
 https://www.diariodiunanalista.it/posts/6-cose-da-fare-prima-di-addestrare-il-tuo-modello/,"In questo articolo scriverò di una metodica utile per prepararsi alla fase di addestramento di un modello. Si tratta di un processo formato da 6 step, ognuno utile per assicurare che un corretto flusso di dati sia immesso nel nostro modello. Seguire questi passaggi mi ha reso più efficiente nel lavoro e più sicuro di me quando mostravo i miei risultati.
 Voglio ringraziare Andriy Burkov e il suo lavoro con il libro Machine Learning Engineering. Ne ho tratto ispirazione per scrivere questo articolo ed è nel complesso un'ottima lettura: leggetelo se non l'avete già fatto.
 Cominciamo.
@@ -371,7 +360,7 @@ Ecco un sunto dei temi toccati
 - Scegli una e una sola metrica di performance
 - Confronta i tuoi modelli con una baseline per capire il valore che stai aggiungendo all'operazione
 - Assicurati di partizionare i dati nel modo corretto.
-Commenti dalla community"
+Commenti dalla community",6 linee guida per addestrare correttamente il tuo modello,Un elenco di azioni da seguire per un corretto addestramento del tuo modello,Andrea D'Agostino,2021-12-02
 https://www.diariodiunanalista.it/posts/addestrare-un-modello-word2vec-da-zero/,"Queste rappresentazioni, chiamate embedding, sono utilizzate in molte attività di elaborazione del linguaggio naturale, come il clustering di parole, la classificazione e la generazione di testo.
 L'algoritmo Word2Vec ha scandito l'inizio di una epoca nel mondo dell'NLP quando è stato introdotto per la prima volta da Google nel 2013.
 Esso si basa sulle rappresentazioni di parole create da una rete neurale (da qui il termine embedding, incorporamenti in italiano) addestrata su corpus di dati molto grandi.
@@ -598,7 +587,7 @@ e molto altro. Se siete interessati ad un argomento che estende quello trattato 
 Con questo progetto potete arricchire il vostro portfolio di template per NLP e comunicare ad uno stakeholder expertise nel trattare documenti testuali nel contesto del machine learning.
 Come sempre, se avete bisogno di me o volete condividere qualche pensiero, contattatemi sui social o attraverso il blog.
 A presto 👋
-Commenti dalla community"
+Commenti dalla community",Addestrare un modello Word2Vec da zero con Gensim,"In questo articolo andremo a esplorare Gensim, una libreria Python molto famosa per addestrare modelli di machine learning basati sul testo, per addestrare un modello Word2Vec da zero",Andrea D'Agostino,2023-01-30
 https://www.diariodiunanalista.it/posts/algoritmi-di-clustering-guida-completa-alla-comprensione-e-allapplicazione/,"In questo articolo, esploreremo il mondo affascinante degli algoritmi di clustering, svelando il loro significato e dimostrando perché rappresentano uno strumento cruciale nell'analisi dei dati.
 Gli algoritmi di clustering sono come i detective dei dati, il cui compito principale è identificare pattern e relazioni nascoste nei tuoi dati.
 Ci aiutano a rispondere a domande come:
@@ -695,7 +684,7 @@ Infine, abbiamo discusso l'importanza di interpretare i risultati del clustering
 Conoscere le tecniche di clustering qui discusse ti metterà in una posizione molto potente dal punto di vista professionale: stai di fatto imparando metodiche applicabili ad vasta gamma di settori, dalla segmentazione del mercato al rilevamento delle comunità in reti sociali.
 Mentre continui il tuo viaggio nell'analisi dei dati, ricorda che l'arte del clustering richiede pratica e sperimentazione.
 Ogni set di dati è unico, e il tuo spirito di esplorazione e la tua comprensione delle metriche di validità del cluster ti guideranno nel prendere decisioni informate e nell'ottenere intuizioni preziose dai tuoi dati.
-Commenti dalla community"
+Commenti dalla community",Guida Introduttiva agli Algoritmi di Clustering,"Una guida introduttiva agli algoritmi di clustering: cosa sono, quali sono, perché sono importanti e come valutarli nel contesto dell'analisi dei dati e la data science",Andrea D'Agostino,2023-09-10
 https://www.diariodiunanalista.it/posts/algoritmi-di-machine-learning-guida-introduttiva-per-comprendere-i-principi-e-le-applicazioni/,"Se sei qui è perché vuoi saperne di più sul machine learning e scoprire cosa si intende per con il termine ""algoritmo"" o ""modello"".
 A differenza dell'articolo già presente su questo blog intitolato Cos'è il Machine Learning: come spiego il concetto ad un neofita, qui mi focalizzerò a darti una introduzione ai principali algoritmi che compongono lo spazio del machine learning tradizionale e non.
 Questi algoritmi sono il cuore pulsante di molte applicazioni moderne - di fatto, permettono ai computer di apprendere dai dati e prendere decisioni intelligenti senza essere esplicitamente programmati.
@@ -843,7 +832,7 @@ Leggendolo, hai imparato alcuni dei concetti introduttivi alla disciplina e alcu
 Oltre a questi, ti ho esposto a tre dei modelli più rilevanti nello spazio che non fanno parter di sklearn quali XGBoost, LightGBM e CatBoost. Ognuno di questi ha vantaggi notevoli quando si vogliono addestrare modelli tradizionali allo stato dell'arte sui dati tabellari.
 I prossimi step che ti ho suggerito sono quelli di continuare l'apprendimento navigando il materiale educativo, la pagina introduttiva agli argomenti trattati in questo blog oppure Kaggle, dove puoi unirti a migliaia di appassionati di data science e ML per competere su progetti reali oppure scambiare opinioni sul forum.
 Buona fortuna nel tuo viaggio!
-Commenti dalla community"
+Commenti dalla community",Algoritmi di Machine Learning: Guida introduttiva per comprendere i principi e le applicazioni,Una guida introduttiva ai concetti del machine learning e data science per principianti. Orientati con dei consigli diretti proprio a te che sei novizio e che vuoi diventare un esperto di machine learning,Andrea D'Agostino,2023-09-30
 https://www.diariodiunanalista.it/posts/analisi-esplorativa-dei-dati-con-python-e-pandas/,"Questo articolo ha l'obiettivo di comunicarti cosa sia una analisi esplorativa e come farla praticamente con Python e Pandas.
 L’analisi esplorativa del dato (exploratory data analysis, EDA) è di fondamentale importanza perché permette all’analista di conoscere a fondo il dataset sul quale lavora, stipulare o scartare ipotesi e creare dei modelli predittivi su basi solide.
 Essa utilizza tecniche manipolazione dei dati e diversi concetti di statistica per comprendere con quali variabili lavoriamo, come esse sono relazionate tra di loro e come possono impattare sul business.
@@ -1057,7 +1046,7 @@ Va specificato quanto il processo descritto finora sia di natura iterativa. Infa
 Per me è impossibile mostrare tutte le tecniche possibili di esplorazione del dato - mancano sia le richieste di business che il dataset. Tuttavia posso trasmettere al lettore l’importanza di applicare un template come il seguente per essere efficienti nell’analisi.
 E tu hai una metodologia per le tue analisi esplorative? Che ne pensi di questa? Condividi il tuo pensiero con un commento 👇
 Grazie per l’attenzione e a presto! 👋
-Commenti dalla community"
+Commenti dalla community",Analisi esplorativa dei dati con Python e Pandas,"Cosa è l'analisi esplorativa, come si struttura e come applicarla in Python con l'ausilio di Pandas e altre librerie di analisi dati e visualizzazione",Andrea D'Agostino,2022-06-30
 https://www.diariodiunanalista.it/posts/bag-of-words-cosa-e-e-come-funziona/,"Il modello più comune per rappresentare numericamente del testo è il modello bag of words.
 L'idea è molto semplice: ogni documento del nostro corpus viene rappresentato contando quante volte ogni parola appare in esso.
 Questa rappresentazione numerica è la base per i modelli linguistici multinomiali e il modello vettoriali.
@@ -1164,7 +1153,7 @@ Il modello Bag of Words è uno dei modelli più semplici e intuitivi per convert
 Questa conversione permette di sfruttare l'informazione contenuta nella frequenza dei token, ma ha lo svantaggio di essere difficile da computare per grossi corpus di dati e che non ci sono informazioni relativi al contesto.
 Nell'articolo Raggruppamento (clustering) di testi con TF-IDF utilizzo il modello TF-IDF, che nasce sempre dal BoW model, per applicare una tecnica di clustering chiamata KMeans. Questo modello è più complesso del bag of words, ma il clustering sarebbe stato possibile anche con quest'ultimo.
 Il BoW model è un modello fondamentale, che permette la creazione di tanti altri modelli più complessi, come il TF-IDF o i modelli multinomiali, che tratteremo in articoli futuri.
-Commenti dalla community"
+Commenti dalla community",Modello Bag of Words: cosa è e come funziona,Il modello più comune per rappresentare numericamente del testo è il modello bag of words. Ogni documento del nostro corpus viene rappresentato contando quante volte ogni parola appare in esso.,Andrea D'Agostino,2022-12-05
 https://www.diariodiunanalista.it/posts/benchmark-di-modelli-di-machine-learning/,"Una delle prime fasi del processo di data science è quella della selezione del modello.
 Nella stragrande maggioranza dei casi, noi non sapremo quale sarà il modello più performante per il nostro set di dati.
 Nasce quindi l'esigenza di poter iterare tra diversi modelli candidati e registrare le performance di ognuno in modo da poter scegliere quale addestrare e migliorare.
@@ -1316,7 +1305,7 @@ models = {
 benchmark = Benchmark(models)
 print(benchmark.test_models())
 benchmark.plot_cv_results()
-Commenti dalla community"
+Commenti dalla community",Benchmark di modelli di machine learning con cross-validazione e visualizzazione in Python,Scopri come creare una classe chiamata Benchmark in Python per confrontare e valutare le prestazioni dei modelli di apprendimento automatico utilizzando la validazione incrociata e la visualizzazione dei risultati,Andrea D'Agostino,2023-01-21
 https://www.diariodiunanalista.it/posts/classificazione-binaria-di-immagini-con-tensorflow/,"In questo post vedremo come costruire un modello di classificazione binaria con TensorFlow per differenziare tra cani e gatti in immagini. Prendendo spunto da una famosa competizione su Kaggle e il relativo dataset, useremo questo compito per imparare come
 - importare dal web un dataset compresso
 - costruire un modello di classificazione con strati di convoluzione e max pooling
@@ -1540,7 +1529,7 @@ print(fn + "" è un cane!"")
 else:
 print(fn + "" è un gatto!"")
 E infine ecco la predizione corretta del nostro modello!
-Commenti dalla community"
+Commenti dalla community",Classificazione binaria di immagini con TensorFlow,Classificare immagini di cani e gatti utilizzando una rete neurale convoluzionale in Tensorflow,Andrea D'Agostino,2022-05-12
 https://www.diariodiunanalista.it/posts/clustering-di-serie-temporali-per-la-previsione-del-mercato-azionario-in-python-parte-1/,"Se sei un analista, indipendentemente dal tuo settore lavorativo, sei sicuramente consapevole che esistono molti approcci diversi per la previsione del mercato azionario. I più rilevanti oggi utilizzano principalmente reti neurali applicate a dati in sequenza, come LSTM, o coinvolgono l'analisi del sentiment e la signal detection.
 Questi approcci sono decisamente interessanti e per una buona ragione: ci sono molte risorse su Internet che trattano gli argomenti menzionati. Questa è una ottima cosa, poiché gli possiamo avviare i nostri progetti seguendo una linea di base condivisa e poi espanderli con le proprie metodologie.
 Oggi voglio proporre un approccio diverso, quello che ho letteralmente sognato un paio di settimane fa e che mi ha fatto riflettere per le possibili opportunità. Sto parlando del clustering di serie temporali applicato ai mercati azionari.
@@ -1801,7 +1790,7 @@ Conclusione della parte 1
 In questa prima parte abbiamo visto come funziona l'algoritmo e il potenziale che potrebbe avere nel prevedere le tendenze del mercato azionario.
 In realtà, se funziona, potrebbe essere potenzialmente un approccio generale...applicabile a qualsiasi serie temporale. Amplierò l'analisi nel prossimo futuro mentre continuo a lavorare sul progetto.
 Condividi i tuoi commenti, dubbi e pensieri sul metodo. Mi piacerebbe integrare feedback e contributo! 😊
-Commenti dalla community"
+Commenti dalla community",Clustering di serie temporali per la previsione del mercato azionario in Python - Parte 1,Un tentativo di identificare pattern nel mercato azionario attraverso un algoritmo custom di raggruppamento. Parte 1 di N.,Andrea D'Agostino,2022-08-01
 https://www.diariodiunanalista.it/posts/come-calcolare-la-similarita-tra-testi-di-un-sito-web-con-tf-idf-in-python/,"Calcolare la similarità tra due testi è una attività molto utile nell'ambito del data mining e dell'elaborazione del linguaggio naturale (NLP, natural language processing). Questa permette sia di isolare anomalie, ad esempio testi molto simili tra di loro o molto diversi, e di raggruppare entità simili in categorie utili.
 In questo articolo andremo ad utilizzare uno script pubblicato qui per scraperare un blog e creare un piccolo corpus su cui applicare un algoritmo di calcolo della similarità basato su TF-IDF in Python.
 In particolare andremo ad utilizzare una libreria chiamata Trafilatura per recuperare dalla sitemap tutti gli articoli di un blog e li inseriremo in un dataframe Pandas per l'elaborazione.
@@ -1978,7 +1967,7 @@ mask=mask
 )
 plt.title('Heatmap delle similarità tra testi', fontdict={'fontsize': 24})
 plt.show()
-Commenti dalla community"
+Commenti dalla community",Come calcolare la similarità tra testi di un sito web con TF-IDF in Python,Calcolare la similarità tra due testi è una attività molto utile nell'ambito del data mining e dell'elaborazione del linguaggio naturale,Andrea D'Agostino,2022-10-03
 https://www.diariodiunanalista.it/posts/come-da-analista-ho-sviluppato-uno-strumento-per-generare-nft/,"Il karma è un boomerang. Ciò è dimostrato dal fatto che oggi un artista possa non solo guadagnarsi da vivere, ma anche guadagnare milioni online.
 Sono all'inizio dei miei trenta e per anni ho visto solo una manciata di artisti (ovvero persone che disegnano, dipingono e creano contenuti visivi) raggiungere il successo nella loro carriera.
 Queste persone sono state abbastanza fortunate e talentuose da mostrare il loro lavoro alle persone giuste, che in cambio hanno pagato molto bene. Ma non tutti gli artisti hanno questo lusso.
@@ -2037,7 +2026,7 @@ Se una sequenza genetica non è valida (ad esempio se la combinazione si trova i
 Una volta completata, troveremo la cartella collection che conterrà le immagini e metadati, insieme ad alcuni report sulla rarità di oggetti e classi.
 E questo è tutto! Ora siamo pronti per pubblicare la nostra collezione NFT su Solana!
 Se avete trovato utile questo software, condividete i vostri pensieri nei commenti qui sotto o mandatemi un messaggio. Se siete degli sviluppatori, sentitevi liberi di contribuire su Github.
-Commenti dalla community"
+Commenti dalla community",Come da analista ho sviluppato uno strumento per generare NFT,Come ho usato conoscenze di base sulla probabilità per creare un software di generazione NFT,Andrea D'Agostino,2022-03-28
 https://www.diariodiunanalista.it/posts/come-funziona-un-modello-di-autocorrezione/,"In questo post vedremo gli step essenziali per sviluppare un semplice modello di autocorrezione. Non mi soffermerò sull'implementazione, ma sulla logica e sulle particolarità di modelli del genere.
 Vediamo modelli di autocorrezione soprattutto nei nostri smartphone, mentre scriviamo su Whatsapp, Facebook Messenger o altre applicazioni di messaggistica. Essi pervadono la nostra quotidianità, ma come ogni tecnologia che lavora ""dietro le quinte"", tendiamo a prendere consapevolezza della sua esistenza solo quando quest'ultime sbagliano e ci trasmettono frustrazione e ansia nell'utilizzo. Accade spesso infatti che il nostro autocorrettore venga accusato di aver predetto erroneamente la nostra intenzione.
 Oltre al funzionamento, vedremo come mai modelli del genere racchiudano difficoltà importanti che spiegano il motivo dei loro errori.
@@ -2077,7 +2066,7 @@ Ponendo che il nostro corpus è formato da 165 termini, vediamo come la parola P
 Abbiamo ora disponibile una distribuzione di probabilità delle parole nel nostro corpus. Il nostro sistema di autocorrect andrà quindi a selezionare il candidato che ha la probabilità di capitare nel nostro corpus più alta. Molto semplice.
 Conclusione
 Abbiamo visto la logica e come implementare un semplice algoritmo di autocorrezione. Questo modello mentale può fungere da base per creare modelli più complessi, che non si basano semplicemente sulla probabilità di occorrenza dei termini, ma anche sul contesto e sul dizionario che ha manualmente creato l'utente attraverso le varie correzioni da lui inserite durante la scrittura.
-Commenti dalla community"
+Commenti dalla community",Come funziona un modello di autocorrezione?,Logica di un algoritmo di autocorrezione,Andrea D'Agostino,2021-10-10
 https://www.diariodiunanalista.it/posts/come-identificare-anomalie-nei-tuoi-dati/,"Nella analisi dei dati, identificare anomalie (outlier detection) è un tema cruciale che può fornire parecchie informazioni importanti.
 In questo articolo ci concentreremo sui metodi e tecniche utilizzati per identificare le anomalie nei dati. In particolare, esploreremo tecniche di visualizzazione dei dati e l'utilizzo di statistiche descrittive e test statistici.
 La definizione di anomalia
@@ -2178,7 +2167,7 @@ Conclusione
 In questo articolo abbiamo visto diverse tecniche che possono essere utilizzate per identificare le anomalie nei dati.
 Abbiamo parlato di visualizzazione dei dati, di utilizzo di statistiche descrittive e di score z, e di tecniche di clustering.
 Ognuna di queste tecniche è valida e va scelta in base al tipo di dati che si sta analizzando. L'importante è ricordare che l'individuazione delle anomalie può fornire informazioni importanti per migliorare i processi di raccolta dati e per prendere decisioni migliori in base ai risultati ottenuti.
-Commenti dalla community"
+Commenti dalla community",Come identificare anomalie nei dati (outliers),"Un articolo che esplora le tecniche per identificare le anomalie (outlier detection) nei dataset. Scopri come utilizzare la visualizzazione dei dati, score z e tecniche di clustering per individuare valori anomali",Andrea D'Agostino,2023-04-25
 https://www.diariodiunanalista.it/posts/come-impostare-un-ambiente-di-sviluppo-per-il-data-science-e-machine-learning/,"Impostare un ambiente virtuale non ha niente di emozionante. Ma proprio nulla.
 Può sembrare un argomento banale, noioso.
 Ma ti informo di una cosa.
@@ -2279,7 +2268,7 @@ Ricorda: non sottovalutare dedicare il tuo tempo a imparare competenze gestional
 Se eseguite bene, queste operazioni semplificano la vita e aumentano la produttività.
 Alla prossima,
 Andrea
-Commenti dalla community"
+Commenti dalla community",Come impostare un ambiente di sviluppo per il machine learning,"Come installare, attivare e usare un ambiente virtuale nel data science",Andrea D'Agostino,2022-04-21
 https://www.diariodiunanalista.it/posts/come-partizionare-i-dati-di-training-in-k-fold/,"La cross-validazione è la prima tecnica da utilizzare per evitare overfitting e data leakage quando vogliamo addestrare un modello predittivo sui nostri dati.
 La sua funzione è essenziale in quanto permette di testare funzioni e logiche sui nostri dati in modo sicuro - senza che questi processi vadano a ""sporcare"" i nostri dati di validazione.
 Se vogliamo fare preprocessing, feature engineering o altre trasformazioni, bisogna sempre prima ripartire i nostri dati correttamente.
@@ -2338,7 +2327,7 @@ df.loc[valid_idx, ""fold""] = fold
 df.to_csv(""./data/dataset_train_folds.csv"")
 Ora possiamo lanciare questo script e semplicemente cambiando il percorso del dataset su disco sarà possibile creare una sua copia con porzioni di validazione.
 Questo approccio è estendibile completamente, ed è consigliabile farlo per praticamente qualsiasi problema di machine learning.
-Commenti dalla community"
+Commenti dalla community",Come ripartire i dati per la cross-validazione K-fold,"Prima di effettuare un addestramento di un modello predittivo, è utile ripartire i dati correttamente per evitare l'overfitting e data leakage.",Andrea D'Agostino,2022-12-17
 https://www.diariodiunanalista.it/posts/come-prendere-appunti-nella-data-science/,"Prendere appunti è spesso una attività trascurata durante lo sviluppo di un progetto di data science o analytics, soprattutto dai principianti.
 Un errore che ho fatto io stesso nel primo periodo della mia carriera è stato quello di saltare subito alla fase di modellazione, prestando poca attenzione alle fasi precedenti, ma essenziali, della pipeline di machine learning.
 In noi data scientist spesso si scatena un’ondata di adrenalina quando iniziamo a modellare i dati (almeno questo succede al sottoscritto).
@@ -2405,7 +2394,7 @@ Questo processo si applica anche ad altri campi (ma forse con processi diverso),
 Sentiti libero di sperimentare con la tua struttura: questo processo funziona per me, ma ciò che funziona per te potrebbe essere leggermente diverso.
 Come nota finale, ecco il video che mi ha ispirato anni fa a sviluppare questo processo. George Hotz è un famoso hacker, imprenditore e a dirla tutta un genio della programmazione.
 Il modo in cui scorre il suo pensiero e come organizza i suoi progetti è affascinante. Dai una occhiata anche gli altri suoi video, te lo consiglio!
-Commenti dalla community"
+Commenti dalla community",Come prendere appunti nella Data Science,Perché prendere appunti nel modo corretto è aiuta enormemente nell'organizzazione di un progetto di data science o analytics,Andrea D'Agostino,2022-07-10
 https://www.diariodiunanalista.it/posts/come-preparare-i-tuoi-dati-per-il-machine-learning/,"Addestrare dei modelli predittivi richiede che i nostri dati siano in un formato adeguato. Non possiamo fornire il nostro file .csv ad un modello e aspettarci che questo impari correttamente a generalizzare.
 In questo articolo, vedremo come preparare i dati per il machine learning, partendo dalla pipeline di preparazione dei dati fino alla divisione in set di addestramento, validazione e di test.
 Pipeline di preparazione dei dati
@@ -2453,7 +2442,7 @@ Abbiamo visto come la raccolta dei dati da fonti affidabili e pertinenti al prob
 Abbiamo inoltre esaminato il preprocessing dei dati, che include la normalizzazione e la standardizzazione dei dati, la codifica delle variabili categoriche e la gestione degli outlier, nonché la trasformazione dei dati, che può includere la riduzione della dimensionalità, la selezione delle features e la creazione di nuove features.
 Infine, abbiamo visto l'importanza della divisione dei dati in train, validation e test set per valutare le prestazioni del modello di machine learning in modo accurato.
 La preparazione dei dati per il machine learning richiede un'attenzione particolare ai dettagli, ma svolgere correttamente i passaggi della pipeline di preparazione dei dati può fare la differenza tra un modello di machine learning che funziona e uno che non funziona.
-Commenti dalla community"
+Commenti dalla community",Come preparare i dati per il machine learning,"In questo articolo, imparerai come preparare i tuoi dati per il machine learning, partendo dalla pipeline di preparazione dei dati fino alla divisione in train, validation e test set.",Andrea D'Agostino,2023-04-17
 https://www.diariodiunanalista.it/posts/come-scraperare-un-blog-e-raccogliere-i-suoi-articoli/,"Creare un dataset è una delle prime e più importanti fasi di un progetto di data analytics e machine learning. Come ho già parlato nel mio articolo dove spiego dell'importanza di creare un dataset partendo da zero, qui mi concentro sul condividere con voi lettori una metodica semplice ed efficace per popolare un corpus di dati testuali usando come sorgente dati dei blog online.
 La motivazione da parte mia che mi ha convinto a scrivere questo pezzo è che il dato di tipo testuale è sicuramente il più prevalente nel mondo online ed è sicuramente una competenza valida quella di poter attingere a questa pool di dati. In questo vi condividerò come.
 Voglio sottolineare la metodica qui presente non è invasiva e in generale non dovrebbe esserci il rischio (se non modificate il codice, ovviamente) di incorrere in penalità.
@@ -2587,7 +2576,7 @@ list_of_websites = [
 ]
 df = create_dataset(list_of_websites)
 df.to_csv(""dataset.csv"", index=False)
-Commenti dalla community"
+Commenti dalla community",Come scraperare un blog e raccogliere i suoi articoli in Python,Un paradigma facile ed efficiente per creare un corpus da articoli di blog online,Andrea D'Agostino,2022-05-01
 https://www.diariodiunanalista.it/posts/come-strutturare-un-progetto-di-machine-learning/,"Spesso i junior del data science si concentrano sul funzionamento di librerie come Scikit-Learn, Numpy e Pandas. Parecchi MOOC presenti online premono molto su concetti che girano intorno a questi ultimi, tralasciando la componente gestionale di un progetto di data science.
 Per quanto un junior possa saperne di algoritmi, librerie e programmazione in generale, il successo di un progetto è anche legato alla sua struttura.
 Una struttura confusionaria può impattare significativamente sulle performance dell'analista, che deve orientarsi continuamente tra il mare-magnum di file e TO-DOs. Questo è ancora più enfatizzato se nel progetto sono coinvolte più persone.
@@ -2614,7 +2603,7 @@ Quando sento di aver preso confidenza con il dataset passo a model_selection.py 
 tune_model.py è strettamente legato a model_selection.py, in quanto il modello selezionato viene fornito direttamente ad una pipeline di ottimizzazione degli iperparametri, spesso effettuata con GridSearchCV oppure con Optuna.
 Da qui poi è semplice - train.py si occupa di addestrare il modello ottimizzato e di valutarne la performance, predict.py viene invece chiamato per fare inferenze.
 Con questo boilerplate avrete un punto di partenza per strutturare i vostri progetti di data science. Sentitevi liberi di espandere e di modificare la logica di questa struttura per adeguarla alle vostre esigenze.
-Commenti dalla community"
+Commenti dalla community",Come strutturare un progetto di machine learning,Boilerplate per la struttura di un progetto di data science,Andrea D'Agostino,2021-09-30
 https://www.diariodiunanalista.it/posts/come-tokenizzare-e-fare-padding-di-sequenze-in-tensorflow/,"In questo articolo vedremo come usare un corpus di dati e estrarre token e sequenze con padding da usare per addestrare modelli di deep learning attraverso Tensorflow.
 Ho già toccato l'argomento in un post precedente dove parlavo di come convertire testi per in tensori per il deep learning, ma in questo caso il focus sarà su come formattare correttamente le sequenze di token per Tensorflow.
 Questa metodologia è indispensabile per fornire ai nostri modelli sequenze di token di lunghezza uniforme (padding). Vediamo come.
@@ -2675,7 +2664,7 @@ sequences = tokenizer.texts_to_sequences(sentences)
 padded = pad_sequences(sequences, padding='post')
 Da notare come nel codice sia presente post come modalità di padding. Questo significa che gli zeri vengono inseriti post-sequenza, quindi allungando il vettore dopo il valore tokenizzato e non prima.
 Ed ecco come vengono applicati tokenizzazione e padding sui testi per fornirli ad una rete neurale su Tensorflow. Se avete domande o dubbi lasciate un commento nel box in fondo alla pagina. Alla prossima!
-Commenti dalla community"
+Commenti dalla community",Come tokenizzare e fare padding di sequenze in Tensorflow,Template per la tokenizzazione e gestione delle sequenze di testo con Tensorflow,Andrea D'Agostino,2022-06-05
 https://www.diariodiunanalista.it/posts/cosa-e-data-leakage/,"Il data leakage è senza alcun dubbio la bestia nera e feroce che preda sul data scientist, giovane o senior che sia.
 È quel fenomeno che può colpire proprio tutti - anche professionisti con anni di esperienza nel settore.
 Insieme all'over/underfitting rappresenta la causa principale di fallimento di progetti di machine learning che vanno in produzione.
@@ -2748,7 +2737,7 @@ Di solito, se noti performance molto alte in fase di sviluppo, controlla sempre 
 Non vogliamo mai che il nostro modello fallisca in produzione!
 Alla prossima,
 Andrea
-Commenti dalla community"
+Commenti dalla community",Data Leakage: cosa è e perché fa fallire i nostri sistemi predittivi,"Il data leakage rappresenta, insieme all'over/underfitting, la causa principale di fallimento di progetti di machine learning che vanno in produzione. Scopri come evitarlo in questo articolo.",Andrea D'Agostino,2023-07-28
 https://www.diariodiunanalista.it/posts/cosa-e-il-machine-learning/,"Spiegare cosa sia il machine learning è relativamente semplice, ma il discorso va tarato in base all'interlocutore. Alcuni termini possono essere interpretati in modo diverso dipendentemente dal contesto, quindi è giusto ricercare un vocabolario quanto più generale possibile.
 Il mio discorso sarà tarato per i neofiti del campo: persone che sanno poco di analisi quantitativa ma che vogliono iniziare ad approcciarsi alla materia per diversi motivi. In particolare, spero che questo articolo possa aiutare giovani figure ad orientarsi nello spazio universitario e lavorativo.
 Che cos'è il Machine Learning?
@@ -2820,7 +2809,7 @@ Esistono oggi corsi di studi universitari che preparano giovani studenti a lavor
 Per gli autodidatti invece, esistono corsi online estremamente validi per iniziare e consolidare le conoscenze necessarie per lavorare nel settore.
 A tema machine learning puro, Coursera offre i corsi più impattevoli sulla carriera di un giovane studente che vuole iniziare il percorso.
 Non posso non condividere il corso di Andrew Ng su Coursera di introduzione al machine learning. È sicuramente una delle prime tappe da smarcare prima di intraprendere il viaggio profondo nel mondo dei dati.
-Commenti dalla community"
+Commenti dalla community",Cos'è il Machine Learning: come spiego il concetto ad un neofita,"Cosa è l'apprendimento automatico, esempi di applicazioni e cosa fare per lavorare nel campo",Andrea D'Agostino,2022-03-30
 https://www.diariodiunanalista.it/posts/cosa-e-la-cross-validazione-nel-machine-learning/,"Il concetto di cross-validazione estende direttamente da quello dell'overfitting, trattato nel mio precedente articolo.
 La cross-validazione è una delle tecniche più efficaci proprio per evitare l'overfitting e per comprendere bene le performance di un modello predittivo.
 Quando ho parlato di overfitting, ho diviso i miei dati in training e test set. Il training set ci è servito a ad addestrare il modello, il test set a valutare le sue performance. Ma questa metodica è sbagliata e non va applicata in casi reali. Questo perché possiamo indurre overfitting nel test set se addestriamo a lungo il nostro modello finché non troviamo la configurazione corretta.
@@ -2919,7 +2908,7 @@ Conclusione
 La cross-validazione è il primo, essenziale step da considerare quando si fa machine learning.
 Ricordate sempre: se vogliamo fare feature engineering, aggiungere logiche o testare altre ipotesi - splittate sempre prima i dati con KFold e applicate tali logiche nel loop di cross-validazione.
 Se abbiamo un buon framework di cross-validazione con dati di validazione rappresentativi della realtà e di quelli di addestramento, allora possiamo creare buoni modelli di machine learning, altamente generalizzabili.
-Commenti dalla community"
+Commenti dalla community",Cosa è la cross-validazione nel machine learning,Leggi cosa è la cross-validazione - una tecnica fondamentale per costruire modelli generalizzabili,Andrea D'Agostino,2022-08-27
 https://www.diariodiunanalista.it/posts/cosa-e-la-grid-search-e-come-applicarla-in-python-con-sklearn/,"Il machine learning è una branca dell'intelligenza artificiale che si occupa di creare modelli in grado di effettuare previsioni su dati non visti in precedenza.
 Uno dei primi passi per costruire un modello di machine learning è la scelta della giusta architettura e dei parametri del modello.
 Questi parametri, chiamati iperparametri, sono settati a priori e non vengono appresi durante il processo di training. I valori degli iperparametri possono avere un impatto significativo sulle prestazioni del modello.
@@ -3004,7 +2993,7 @@ Conclusioni
 La grid search è una tecnica potente per ottimizzare gli iperparametri dei modelli di machine learning e può essere particolarmente utile quando si hanno molti iperparametri da considerare.
 Tuttavia, è importante considerare che la grid search può essere computazionalmente costosa se ci sono molti iperparametri da esplorare.
 Inoltre, la grid search può portare alla selezione di modelli troppo complessi, che tendono a sovra-adattarsi ai dati di training.
-Commenti dalla community"
+Commenti dalla community",Cosa è la grid search e come applicarla in Python con Sklearn,La grid search è una tecnica utilizzata per trovare i migliori iperparametri di un modello di machine learning e può essere particolarmente utile quando ci sono molti iperparametri da considerare.,Andrea D'Agostino,2023-04-19
 https://www.diariodiunanalista.it/posts/costruire-il-proprio-dataset-da-zero-vantaggi-approccio-e-strumenti/,"Se cerchiamo how to become data scientists su Google troviamo una marea di risorse che ci esortano ad imparare le basi dell'algebra lineare e dell'analisi matematica.
 La motivazione che ci viene data è che queste saranno la base della nostra comprensione degli algoritmi di machine e deep learning che andremo a studiare più avanti. Sono tasselli propedeutici e, a parer mio, le risorse che dicono questo hanno ragione. Non se ne esce.
 Ho scoperto però che seppur necessari alla crescita e alla comprensione della materia come data scientist, esse non sono sufficienti. Ci sono moltissimi analisti incredibilmente abili nel loro lavoro, ma parecchi arrancano a trovare lavoro e a farsi valere.
@@ -3071,7 +3060,7 @@ Se possediamo un sito web e siamo abili in Javascript o Php, possiamo scrivere d
 Aggiungo che raccogliere questo tipo di informazione può ricadere nella regolamentazione GDPR, quindi dobbiamo essere cauti e usare i dati responsabilmente.
 In conclusione, devo menzionare che è anche possibile comprare dati, che differiscono in prezzo in base alla loro qualità. Spesso si tratta di dati difficilmente reperibili da un singolo individuo (come dati che provengono da zone profonde dello spazio oppure dagli abissi marini) e sono molto difficili da mettere insieme proprio a causa del fenomeno che descrivono.
 Questa strada è spesso usata dai data scientist per avere una mole di dati più grande da unire ad un dataset già sviluppato da loro.
-Commenti dalla community"
+Commenti dalla community","Costruire il proprio dataset: vantaggi, approccio e strumenti",L'importanza di costruire il proprio dataset invece di usare una soluzione già pronta,Andrea D'Agostino,2022-01-16
 https://www.diariodiunanalista.it/posts/data-science-data-engineering-data-analytics-ma-qual-e-la-differenza/,"In questo articolo voglio presentare al lettore una visione olistica di quello che per me è processo di data science.
 Tale processo viene spesso menzionato in materiale educativo di settore, come corsi online e manuali ed è il punto di partenza del professionista che vuole muovere i suoi primi passi nel campo dell'analisi dei dati. Questo perché il processo di data science è molto simile al metodo scientifico di Galileo che si studia a scuola.
 Diventa quindi un aggancio dalla semplice interpretazione che permette a chi si muove nel campo di comprendere e spiegare efficacemente ogni step del progetto che sta osservando.
@@ -3160,7 +3149,7 @@ Sono dell'idea che una conversazione costante tra membri di team diverso, ma app
 Il lupo solitario invece dovrebbe circondarsi di colleghi virtuali quanto più possibile: consiglio infatti di ingaggiare persone sui social e parlare con loro direttamente per migliorare le performance su un task complesso.
 Infine, lo stakeholder principale, che sia un CTO oppure un imprenditore con una ambizione di sfondare in ambito data, dovrebbe prima di tutto informarsi sul processo di data science al fine di pianificare adeguatamente il progetto lato business.
 L'inclusione o meno di una di queste figure può impattare notevolmente sul business, e questa non dovrebbe essere una sorpresa, ma bensì una condizione precedentemente pensata e compresa profondamente.
-Commenti dalla community"
+Commenti dalla community","Data science, data engineering, data analytics...ma c'è davvero differenza?","C'è davvero differenza tra data science, data engineering e data analytics? L'intero processo end-to-end di raccolta, gestione e analisi del dato viene diviso secondo questi tre termini - propongo la mia interpretazione olistica dell'intero processo.",Andrea D'Agostino,2022-11-05
 https://www.diariodiunanalista.it/posts/early-stopping-in-tensorflow/,"In questo articolo spiegherò come controllare il training di una rete neurale in TensorFlow attraverso l'utilizzo di callback.
 Una callback è una funzione che viene chiamata ripetutamente durante un processo (ad esempio l'addestramento di una rete neurale) e che generalmente serve per validare o correggere determinati comportamenti.
 Nel machine learning, possiamo usare delle callback per definire cosa succede prima, durante o alla fine di un'epoca.
@@ -3260,7 +3249,7 @@ loss='sparse_categorical_crossentropy',
 metrics=['accuracy'])
 # Addestriamo il modello con la nostra callback!
 model.fit(x_train, y_train, epochs=10, callbacks=[early_stopping])
-Commenti dalla community"
+Commenti dalla community",Early Stopping in TensorFlow - impedire l'overfitting di una rete neurale,Come usare una callback per stoppare il training a performance adeguata,Andrea D'Agostino,2022-05-06
 https://www.diariodiunanalista.it/posts/estrazione-keyword-un-benchmark-di-7-algoritmi-in-python/,"Di recente mi sono trovato a lavorare su attività di estrazione di parole chiave. L'obiettivo era trovare un algoritmo in modo efficiente, bilanciando la qualità dell'estrazione e il tempo di esecuzione, poiché il mio corpus di dati stava aumentando raggiungendo rapidamente milioni di righe. Uno dei KPI era estrarre parole chiave che avevano sempre senso da sole anche contesto.
 Ciò mi ha portato a testare e sperimentare diversi meccanismi di estrazione conosciuti nell'ambiente. Eccomi condividere con voi il mio piccolo viaggio.
 Le Librerie
@@ -3526,7 +3515,7 @@ Liaad. (n.d.). Liaad/Yake: Single-document unsupervised keyword extraction. Retr
 Boudinfl. (n.d.). BOUDINFL/pke: Python keyphrase extraction module. Retrieved November 25, 2021, from https://github.com/boudinfl/pke
 MaartenGr. (n.d.). MAARTENGR/Keybert: Minimal keyword extraction with bert. Retrieved November 25, 2021, from https://github.com/MaartenGr/KeyBERT
 Explosion. (n.d.). Explosion/spacy: 💫 industrial-strength natural language processing (NLP) in Python. Retrieved November 25, 2021, from https://github.com/explosion/spaCy
-Commenti dalla community"
+Commenti dalla community",Estrazione keyword - un benchmark di 7 algoritmi in Python,Confronto di 7 algoritmi in task di estrazione di parole chiave su un corpus di 2000 documenti,Andrea D'Agostino,2021-11-24
 https://www.diariodiunanalista.it/posts/guida-alla-gestione-delle-variabili-categoriali/,"Gestire le variabili categoriali in un progetto di data science o machine learning non è compito facile. Questo tipo di lavoro richiede conoscenza profonda del campo di applicazione e una ampia conoscenza delle molteplici metodologie disponibili.
 Per questo motivo, l’articolo presente si concentrerà sullo spiegare i seguenti concetti
 - cosa sono le variabili categoriali e come dividerle nelle tipologie diverse nelle quali sono possono presentare
@@ -3875,7 +3864,7 @@ LabelEncoder o
 OneHotEncoder in base al tipo di variabile e modello che vogliamo usare
 - ragionare in termini di arricchimento delle variabili, andando a considerare i NaN o NONE come variabili categoriali che possono informare il modello
 - Modeling!
-Commenti dalla community"
+Commenti dalla community",Guida alla gestione delle variabili categoriali,Una guida su come approcciare le variabili categoriali presenti all'interno di un dataset ai fini del machine learning e data science,Andrea D'Agostino,2023-06-14
 https://www.diariodiunanalista.it/posts/guida-prompt-engineering/,"L'avvento degli LLM (Large Language Models) ha permesso al termine ""AI"" di farsi spazio nel vocabolario ormai giornaliero della maggior parte degli internauti.
 Sistemi come ChatGPT vengono interrogati milioni di volte al giorno per rispondere ai quesiti degli utenti, che stanno si stanno gradualmente chiedendo se il paradigma dei motori di ricerca non sia effettivamente una cosa del passato.
 Il prompt engineering è un termine che è associato agli LLM ed è anch'esso molto utilizzato oggi dai fruitori di tali sistemi. Consiste nello sviluppare e ottimizzare i prompt (cioè le domande che vengono poste al modello da parte dell'umano) al fine di ottenere risposte più precise da parte dei modelli linguistici.
@@ -4059,7 +4048,7 @@ In particolare hai letto di
 Questo articolo sarà periodicamente aggiornato per includere le tecniche più valide nello spazio del prompt engineering.
 A presto,
 Andrea
-Commenti dalla community"
+Commenti dalla community",Prompt Engineering: una guida all'interrogazione efficace degli LLM,Il prompt engineering consiste nello sviluppare e ottimizzare i prompt (cioè le domande che vengono poste al modello da parte dell'umano) al fine di ottenere risposte più precise da parte dei modelli linguistici,Andrea D'Agostino,2023-10-26
 https://www.diariodiunanalista.it/posts/il-compromesso-bias-varianza-nel-machine-learning/,"In questo articolo esplorerò un altro concetto fondamentale nella nostra battaglia contro l'over/underfitting: il compromesso bias-varianza.
 Uno dei principali obiettivi del machine learning è quello di costruire modelli che possano generalizzare bene su dati che non sono stati ancora visti.
 Quando si costruisce un modello, è importante assicurarsi che non sia troppo semplice da non poter catturare le complessità del problema o troppo complesso da sovrapporsi ai dati di addestramento.
@@ -4094,7 +4083,7 @@ Questo breve articolo si unisce alla collezione seguente di articoli che hanno c
 - Cosa è la cross-validazione nel machine learning
 A presto!
 Andrea
-Commenti dalla community"
+Commenti dalla community",Il compromesso Bias-Varianza nel Machine Learning,"In questo articolo, discuteremo del compromesso tra bias e varianza nel machine learning e di come trovare il giusto equilibrio tra i due può aiutare a migliorare le prestazioni del modello.",Andrea D'Agostino,2023-03-04
 https://www.diariodiunanalista.it/posts/il-piu-grande-ostacolo-nel-machine-learning-overfitting/,"Il modo migliore per spiegare cosa sia l'overfitting è attraverso un esempio.
 Poniamo questo scenario: siamo appena stati assunti come data scientist in una azienda che sviluppa software di elaborazione fotografica.
 L'azienda nell'ultimo periodo ha deciso di provare a implementare delle funzionalità di machine learning e l'intenzione è quella di creare un software in grado di distinguere tra foto originali e foto ritoccate.
@@ -4221,7 +4210,7 @@ Ora il lettore ha una idea più precisa di cosa sia l'overfitting (e la sua cont
 Abbiamo anche visto quali sono delle tecniche frequentemente usate nella data science e machine learning per evitare l'overfitting.
 Infine abbiamo toccato il tema del tuning degli iperparametri, molto importante in una pipeline di machine learning.
 Grazie per la vostra attenzione, a presto! 👋
-Commenti dalla community"
+Commenti dalla community",Il più grande ostacolo nel machine learning: l’overfitting,L'overfitting è un concetto nella data science che si manifesta quando un modello predittivo impara bene a generalizzare i dati di training ma non quelli di test,Andrea D'Agostino,2022-08-21
 https://www.diariodiunanalista.it/posts/intro-ai-generativa/,"Il 2023 segna un'era definitiva per l'intelligenza artificiale: l'intero mondo sta toccando con mano quello che anni di data science e machine learning applicato sono riuscite a produrre grazie ai dati.
 Le funzionalità che oggi noi internauti siamo in grado di esperire grazie ad aziende come OpenAI, Google, X e Meta (e anche ai contributori dell'open source, beninteso) definiscono quello che noi oggi chiamiamo IA generativa.
 Questo termine identifica le tecnologie che permettono alle macchine non solo di apprendere ma anche di creare.
@@ -4327,7 +4316,7 @@ Se ti ha intrigato e vuoi saperne di più, ti consiglio di seguire i link inseri
 Se ci sono domande o dubbi, contattami via il form di contatto presente nel blog oppure sui social.
 A presto,
 Andrea
-Commenti dalla community"
+Commenti dalla community",Introduzione alla IA Generativa e alle sue Applicazioni,Cosa è l'IA generativa e perché sta ridefinendo i confini del possibile attraverso tecnologie che permettono alle macchine non solo di apprendere ma anche di creare,Andrea D'Agostino,2023-11-12
 https://www.diariodiunanalista.it/posts/introduzione-a-pytorch-dal-training-loop-alla-predizione/,"In questo post vedremo come implementare un modello di regressione logistica usando PyTorch in Python.
 PyTorch è uno dei framework di deep learning più famosi e usati dalla community di data scientist e ingegneri del machine learning al mondo, e imparare questo strumento diventa fondamentale se si vuole costruire una carriera nel campo della IA applicata.
 Esso si affianca a TensorFlow, un altro framework di deep learning molto famoso sviluppato da Google.
@@ -4685,7 +4674,7 @@ In questo articolo abbiamo visto come creare un modello di classificazione binar
 Abbiamo visto come appare il loop di training, come valutare il modello e come creare delle predizioni e delle visualizzazioni per aiutare l'interpretazione.
 Con PyTorch è possibile creare reti neurali molto complesse...basti pensare che Tesla, l'azienda costruttrice di auto elettriche basate su AI, usa proprio PyTorch per creare i suoi modelli.
 Per chi vuole iniziare il suo percorso nel deep learning, imparare PyTorch quanto prima diventa un task a priorità alta poiché consente di creare tecnologie importanti in grado di risolvere problemi complessi basati sui dati.
-Commenti dalla community"
+Commenti dalla community",Introduzione a PyTorch: dal training loop alla predizione,PyTorch con Python: introduzione da addestramento a predizione. PyTorch è uno dei framework di deep learning più famosi e imparare questo strumento diventa fondamentale se si vuole costruire una carriera nel campo della IA applicata.,Andrea D'Agostino,2023-03-26
 https://www.diariodiunanalista.it/posts/introduzione-a-tensorflow-2-0-api-e-modello-sequenziale-di-deep-learning/,"Tensorflow è il framework creato da Google che permette ai praticanti di machine learning di creare modelli di deep learning ed è spesso la prima soluzione che viene proposta agli analisti che si approcciano per la prima volta al deep learning.
 Il motivo è da ricercarsi nella semplicità e intuitività dell'API sequenziale di Tensorflow. Questa è molto semplice ma permette all'analista di creare reti neurali molto complesse e potenti.
 API significa Application Programming Interface (interfaccia di programmazione dell'applicazione) e rappresenta proprio l'interfaccia tra l'utente e l'applicativo che vogliamo usare.
@@ -4865,7 +4854,7 @@ Conclusioni
 L'API e modello sequenziale di Tensorflow sono degli strumenti potenti e semplici da usare per il praticante di deep learning.
 Questa guida vuole mettere il principiante di deep learning in condizione di poter sperimentare con tali strumenti nei suoi progetti personali, evitando di sentirsi perso e ricorrere alla documentazione ufficiale.
 Spero di aver contribuito alla vostra formazione. Alla prossima!
-Commenti dalla community"
+Commenti dalla community",Introduzione a Tensorflow 2.0 - API e modello sequenziale di deep learning,Tensorflow è il framework creato da Google che permette ai praticanti di machine learning di creare modelli di deep learning ed è spesso la prima soluzione che viene proposta agli analisti che si approcciano per la prima volta al deep learning.,Andrea D'Agostino,2022-11-20
 https://www.diariodiunanalista.it/posts/introduzione-al-campionamento-statistico-e-al-ricampionamento/,"Il desiderio di qualsiasi ricercatore è quello di poter avere dati sull’intera popolazione oggetto di studio.
 Studiare la popolazione intera permette al ricercatore di ottenere una comprensione completa del fenomeno in esame, poiché ciò consente di raccogliere informazioni su tutti gli individui che compongono la popolazione.
 Tuttavia, nella maggior parte dei casi, questo obiettivo è irrealizzabile, sia per motivi pratici che teorici.
@@ -4934,7 +4923,7 @@ In questo articolo abbiamo visto come il campionamento statistico sia un concett
 Abbiamo visto come il campionamento può aiutare a ottenere informazioni sulla popolazione di interesse con un'efficienza maggiore rispetto alla raccolta di dati sull'intera popolazione, in base alle conoscenze del ricercatore nel dominio di riferimento e ai vari bias alla quale è esposto.
 Abbiamo anche discusso delle tecniche di campionamento più utilizzate, tra cui il campionamento casuale, quello stratificato, quello sistematico e per quote, nonché la tecnica del bootstrapping.
 Infine, abbiamo sottolineato l'importanza di una corretta definizione della popolazione di riferimento e della scelta del metodo di campionamento più appropriato per gli obiettivi dello studio.
-Commenti dalla community"
+Commenti dalla community",Introduzione al campionamento statistico e al ricampionamento,"Il campionamento statistico è fondamentale per ottenere informazioni sulla popolazione di interesse in modo efficiente. In questo articolo, esploreremo il concetto di campionamento statistico, le sue tecniche più comuni e l'utilizzo del ricampionamento per stimare la precisione delle stime.",Andrea D'Agostino,2023-05-03
 https://www.diariodiunanalista.it/posts/introduzione-al-clustering-non-supervisionato-con-k-means/,"L'apprendimento non supervisionato è una branca fondamentale dell'analisi dei dati che si concentra sulla scoperta di strutture nascoste nei dati senza la presenza di etichette di output.
 Tra le diverse tecniche di apprendimento non supervisionato, l'algoritmo K-Means è uno dei più utilizzati e apprezzati per il clustering dei dati.
 Nel presente articolo, esploreremo in dettaglio il funzionamento e l'applicazione di K-means, un algoritmo di clustering partizionale che ha dimostrato di essere efficace nella suddivisione dei dati in gruppi omogenei.
@@ -5110,7 +5099,7 @@ Difetti del K-Means:
 - Sensibile alla normalizzazione delle feature: K-Means è influenzato dalla scala delle feature presenti nel dataset. Pertanto, è fondamentale standardizzare i dati prima di eseguire l'algoritmo per garantire che tutte le feature abbiano lo stesso impatto.
 - Computazionalmente oneroso: se il dataset è molto grande (già 100k+ righe) oppure pieno di feature, il K-Means potrebbe non essere la soluzione ideale per il clustering, in quanto la convergenza sarebbe molto lenta.
 K-Means rimane uno strumento prezioso. Nella pratica, è sempre consigliabile eseguire diverse prove con valori diversi di K e considerare l'uso di altre tecniche di clustering per affrontare le limitazioni di K-Means in caso di strutture di cluster più complesse.
-Commenti dalla community"
+Commenti dalla community",Introduzione al clustering non supervisionato con K-Means,L'apprendimento non supervisionato è una branca fondamentale dell'analisi dei dati che si concentra sulla scoperta di strutture nascoste nei dati senza la presenza di etichette di output.,Marco Speciale,2023-08-06
 https://www.diariodiunanalista.it/posts/introduzione-alla-pca-in-python-con-sklearn-pandas-e-matplotlib/,"Nel contesto dell'analisi dei dati, ci troviamo spesso ad affrontare sfide complesse dovute alla crescente quantità di informazioni disponibili.
 È innegabile che l'accumulo di dati da svariate fonti sia diventato una costante nella nostra vita. Data scientist o meno, tutti praticamente descrivono un fenomeno come una collezione di attributi che lo caratterizzano.
 È molto raro lavorare alla risoluzione di una sfida analitica senza dover gestire un insieme di dati multidimensionali - questo è particolarmente evidente oggi, in cui la raccolta di dati è sempre più automatizzata e la tecnologia ci permette di acquisire informazioni da una vasta gamma di fonti, compresi sensori, dispositivi IoT, social media, transazioni online e molto altro.
@@ -5291,7 +5280,7 @@ Ricapitolando,
 Se hai trovato questo articolo utile condividilo con i tuoi amici o colleghi appassionati e condividi il tuo feedback!
 Alla prossima,
 Andrea
-Commenti dalla community"
+Commenti dalla community","Introduzione alla PCA in Python con Sklearn, Pandas e Matplotlib",Impara come usare la PCA in Python e Sklearn per trasformare un dataset multidimensionale in un numero arbitrario di dimensioni e visualizzare i dati ridotti con Matplotlib,Andrea D'Agostino,2023-09-04
 https://www.diariodiunanalista.it/posts/introduzione-alle-reti-neurali-pesi-bias-e-attivazione/,"Questo articolo ha l'obiettivo di comunicarti come funzionano le reti neurali nell'ambito del machine e deep learning.
 Le reti neurali sono un particolare tipo di tecnologia che ha completamente rivoluzionato gli ultimi tempi.
 Infatti, modelli come GPT e Falcon sono proprio basati su diverse reti neurali che comunicano tra di loro in una architettura particolare chiamata transformer.
@@ -5385,7 +5374,7 @@ neuron_output += neuron_bias
 # aggiungere il risultato del neurone allo strato
 layer_outputs.append(neuron_output)
 print(layer_outputs) # stampiamo il risultato
-Commenti dalla community"
+Commenti dalla community","Introduzione alle reti neurali - pesi, bias e attivazione","Come apprende una rete neurale attraverso a pesi, bias e funzione d'attivazione",Andrea D'Agostino,2021-12-20
 https://www.diariodiunanalista.it/posts/le-migliori-risorse-per-imparare-python-online/,"Una delle preoccupazioni maggiori per uno studente è quella di trovare un buon insegnante per la materia che si vuole imparare.
 Questo discorso è eccezionalmente valido per la programmazione e il data science.
 Sono dell'idea che tutti noi, a prescindere dall'età, possediamo già gli strumenti e le risorse per poter imparare e diventare bravi e operativi in questo campo. Dico questo perché una delle argomentazioni più comuni che sento da aspiranti analisti che però hanno gettato la spugna ha a che vedere con l'età e come questa sia un ostacolo che ferma lo sviluppo personale e professionale ancora prima di iniziare.
@@ -5427,7 +5416,7 @@ Concludo l'articolo dicendo che queste risorse rappresentano ancora oggi per me 
 Devo molto a ogni creatore coinvolto nel materiale esposto qui, e anche molti altri non menzionati. Le comunità nell'ambito della programmazione e data analytics sono davvero molte e partecipare ad esse ci permette di esperire il contatto diretto con gente più brava di noi. Ed è in questo particolare momento che cresciamo - proprio quando ci mettiamo nei panni degli allievi.
 Se volete far parte di una community di appassionati di programmazione, data analytics e machine learning, iscrivetevi alla newsletter di questo blog e unitevi al server Discord di questo blog!
 A presto,
-Commenti dalla community"
+Commenti dalla community",Le migliori risorse per imparare Python online,Le migliori risorse per imparare Python online. Queste sono state selezionate in quanto hanno avuto un grosso impatto sul mio sviluppo da programmatore e a distanza di anni si rivelano essere ancora delle pietre miliari per la mia formazione.,Andrea D'Agostino,2022-06-14
 https://www.diariodiunanalista.it/posts/machine-learning-vs-deep-learning/,"I termini machine learning e deep learning sono sicuramente centrali nel contesto della data science.
 Le manifestazioni della IA più impattanti del momento, come ChatGPT, si basano proprio su machine e deep learning.
 Il modo in cui questi termini vengono usati però è spesso lo stesso, e a volte possono significare anche la stessa cosa.
@@ -5495,7 +5484,7 @@ Machine learning e deep learning sono essenzialmente la stessa cosa - metodi e t
 È assolutamente superfluo usare tecniche di deep learning su dataset tabellari di dimensioni ridotte, perché un ""banale"" random forest potrebbe performare molto meglio e convergere più velocemente alle soluzioni.
 Il mio consiglio è come sempre di valutare attentamente il contesto e porsi delle domande chiare che aiutano a comprendere bene il problema che abbiamo di fronte.
 Se vuoi leggere di più su consigli e approcci in generale, ti suggerisco di sfogliare la categoria carriera di questo blog che racchiude proprio articoli che vanno a toccare modelli mentali e template per ottimizzare il lavoro.
-Commenti dalla community"
+Commenti dalla community",Machine Learning vs Deep Learning: quali sono le differenze?,"Questo articolo vuole fare chiarezza tra le due terminologie, così che il lettore possa avere una comprensione precisa di cosa significhino rispettivamente machine learning e deep learning",Andrea D'Agostino,2022-09-14
 https://www.diariodiunanalista.it/posts/migliorare-i-propri-modelli-di-dati-con-pydantic/,"La modellazione dei dati è un aspetto importante di qualsiasi progetto basato sui dati e la scelta degli strumenti e delle tecniche giuste può fare una grande differenza nella qualità e nell'affidabilità dei modelli.
 Uno strumento da prendere in considerazione è Pydantic, una libreria Python che fornisce un modo semplice ed efficace per definire e convalidare i modelli di dati.
 Che cosa è Pydantic?
@@ -5588,7 +5577,7 @@ Conclusione
 In conclusione, Pydantic è uno strumento potente e versatile per la modellazione dei dati in Python.
 La sua semplicità, efficienza, flessibilità e compatibilità lo rendono una scelta eccellente per qualsiasi progetto basato sui dati, in particolare i progetti di machine learning, e la sua comunità attiva e il supporto rendono facile trovare aiuto e risorse ogni volta che ne hai bisogno.
 Se stai cercando di migliorare la qualità e l'affidabilità dei tuoi modelli di dati, vale sicuramente la pena considerare Pydantic.
-Commenti dalla community"
+Commenti dalla community",Migliorare i propri modelli di dati con Pydantic,Pydantic è una libreria Python che ci consente di strutturare e convalidare i dati in modo efficiente. Applicazioni in Python e nel contesto del Machine Learning,Andrea D'Agostino,2023-01-06
 https://www.diariodiunanalista.it/posts/perche-avere-un-grosso-numero-di-feature-puo-peggiorare-il-tuo-modello/,"Un lavoro di analisi dati inizia sempre data un dataset. Questo può essere stato consegnato dal cliente, trovato pubblicamente su siti come Kaggle.com oppure creato da noi e il nostro team.
 In qualsiasi di questi casi, il dataset mostrerà una anatomia che varierà in base al tipo di fenomeno che vuole descrivere, e avrà un certo numero di colonne che comporranno tale struttura.
 Durante lo sviluppo del nostro progetto, il team sarà interessato a diversi aspetti di questo dataset:
@@ -5651,7 +5640,7 @@ Conclusione
 L'ingegnerizzazione delle feature è sicuramente una attività alla quale dobbiamo sempre pensare, ma con una attenzione a non strafare.
 È facile pensare che una certa variabile possa avere un impatto positivo delle performance del modello - il modo migliore per testare una ipotesi è proprio quella di sperimentare. Boruta aiuta proprio a questo: all'inserimento di una nuova variabile possiamo usare questa libreria (insieme ad altri approcci) per stimare la rilevanza di tale feature sui risultati.
 Qualora non volessimo studiare le feature con un processo di selezione, il consiglio è quello di andare ad evitare gli ostacoli menzionati e di valutare come le performance del modello cambino all'inserimento graduale di più variabili.
-Commenti dalla community"
+Commenti dalla community",Perché avere un grosso numero di feature può peggiorare il tuo modello,Una attività di feature engineering può essere molto utile per migliorare le performance di un modello predittivo. Questa però può peggiorare i nostri risultati se non teniamo a mente certi principi da evitare.,Andrea D'Agostino,2022-10-20
 https://www.diariodiunanalista.it/posts/perche-il-tuo-progetto-di-machine-learning-potrebbe-fallire/,"Quando ho iniziato la mia carriera da analista, credevo che la parte più difficile di un progetto fosse fare il lavoro vero e proprio. Mi sbagliavo. La maggior parte dei progetti di machine learning e analisi avanzata fallisce o non va in produzione. Le cause di questi fallimenti spaziano da quelle organizzative a quelle operative. Tratteremo entrambi in questo articolo.
 Seppur la capacità di eseguire il lavoro pratico è fondamentale per il successo del progetto, un aspetto spesso trascurato ha a che fare con la comunicazione con il cliente e la comprensione delle aspettative.
 Come persone dal background prevalentemente tecnico, ci concentriamo spesso sul lavoro effettivo invece di curare la conversazione da uomo a uomo: deleghiamo (quando possibile) le e-mail, le riunioni e le conversazioni con i clienti a colleghi che ricoprono ruoli specifici come account e project manager.
@@ -5697,7 +5686,7 @@ Per ricapitolare, ecco un elenco (incompleto) di eventi che potrebbero interromp
 - Cattiva comunicazione e incapacità di collaborare in modo efficiente tra e all'interno dei team
 - Il cliente non ha dati o la sua infrastruttura è mal gestita
 - accettare progetti tecnicamente irrealizzabili
-Commenti dalla community"
+Commenti dalla community",Perché il tuo progetto di machine learning potrebbe fallire,Minacce e sfide che potrebbero influenzare l'esito del tuo progetto e il rapporto con il cliente,Andrea D'Agostino,2021-12-07
 https://www.diariodiunanalista.it/posts/personalizzare-le-pipeline-di-sklearn-transformermixin/,"Una delle funzionalità più usate e apprezzate di Scikit-Learn sono le pipeline. Sebbene il loro utilizzo sia optional, quest'ultime possono essere utilizzate per rendere il nostro codice più pulito e facile da mantenere.
 Le pipeline accettano come input degli estimators, che non sono altro che delle classi che si ereditano da sklearn.base.BaseEstimator e che contengono i metodi fit e transform. Questo ci permette di personalizzare le pipeline con funzionalità che Sklearn non offre di default.
 Parleremo dei transformer, degli oggetti che applicano una trasformazione su un input. La classe dalla quale erediteremo è
@@ -6052,7 +6041,7 @@ Restituisce:
 n_sentences (int): numero di frasi
 """"""
 return len(text.split("".""))
-Commenti dalla community"
+Commenti dalla community",Personalizzare le Pipeline di Sklearn con BaseEstimator e TransformerMixin,"Impara a personalizzare le pipeline di Scikit-Learn estendendo la classe Pipeline per dare ordine, affidabilità e leggibilità al tuo codice",Andrea D'Agostino,2021-12-12
 https://www.diariodiunanalista.it/posts/pipeline-scikit-learn/,"Nel data science e machine learning, una pipeline è un insieme di step sequenziali che ci permette di controllare il flusso dei dati. Sono molto utili in quanto rendono il nostro codice pulito, scalabile e leggibile.
 Esse sono usate per organizzare le varie fasi di un progetto, come il preprocessing, l'addestramento di un modello e così via. Attraverso una pipeline, infatti, possiamo compattare tutte queste azioni in un singolo oggetto rendendo così il nostro codice pulito e snello.
 Anche se non è necessario implementarle nel nostro progetto, usare le pipeline ha vantaggi notevoli, quali
@@ -6146,7 +6135,7 @@ from sklearn.metrics import mean_squared_error
 eval_metric = mean_squared_error(y_test, preds, squared=False)
 print(eval_metric)
 Abbiamo ora un template copia-incolla della struttura e utilizzo di una pipeline con Scikit-Learn.
-Commenti dalla community"
+Commenti dalla community",Come usare le Pipeline di Sklearn per ottimizzare la tua analisi,"Spiegazione, template e codice Python per la creazione di pipeline con Scikit-Learn",Andrea D'Agostino,2021-09-30
 https://www.diariodiunanalista.it/posts/preparazione-dei-dati-per-nlp-con-deep-learning/,"Questo articolo mostrerà come preparare dei testi per applicazioni basate su reti neurali.
 Dato un corpus di dati testuali, applicheremo il seguente processo
 - mappatura della singola parola del testo (token) ad un indice
@@ -6255,7 +6244,7 @@ word_ID = vocab_dict.get(word, unk_ID)
 tensor_l.append(word_ID)
 return tensor_l
 Ora possiamo procedere a usare i nostri tensori per creare un batch_generator e un modello di deep learning, come una LSTM.
-Commenti dalla community"
+Commenti dalla community",Convertire testi in tensori per il Deep Learning,Pipeline di preparazione dei dati testuali per il deep learning,Andrea D'Agostino,2021-12-14
 https://www.diariodiunanalista.it/posts/previsione-delle-serie-temporali-con-lstm-in-tensorflow/,"In questo articolo vedremo come fare una previsione da una serie temporale con Tensorflow e Keras in Python. Useremo una rete neurale sequenziale creata in Tensorflow basata su strati LSTM bidirezionali per catturare i pattern nelle sequenze univariate che daremo in input al modello.
 In particolare vedremo come
 - generate dei dati sintetici per simulare una serie temporale con diverse caratteristiche
@@ -6483,7 +6472,7 @@ Ricapitolando, abbiamo visto come
 - fare previsioni sulla serie di addestramento, validazione e nel futuro
 Se avete suggerimenti su come migliorare questo flusso, scrivete nei commenti e condividete il vostro metodo. Spero che l'articolo vi possa aiutare con i vostri progetti.
 A presto,
-Commenti dalla community"
+Commenti dalla community",Previsione delle serie temporali con LSTM in Tensorflow,Prevedere il prossimo punto in una serie temporale univariata con Tensorflow e Keras attraverso l'utilizzo di una rete neurale sequenziale basata su LSTM bidirezionali,Andrea D'Agostino,2022-06-17
 https://www.diariodiunanalista.it/posts/quando-e-quando-non-utilizzare-il-machine-learning-nella-tua-strategia-aziendale/,"Non è una domanda scontata. Per il data scientist alle prime armi, spingere subito verso l’adozione di modelli di apprendimento automatico può essere un errore.
 Di fatto, soluzioni più semplici basate su regole specifiche possono risultare efficienti e più facili da implementare, salvando grosse somme di denaro durante il processo.
 A mano a mano che l’adozione del machine learning nelle varie industrie aumenta, emerge sempre di più la tendenza a voler usare questo approccio ovunque sia possibile applicarlo.
@@ -6558,7 +6547,7 @@ Non dovremmo cadere nell'errore di considerarlo come la soluzione a tutti i nost
 Posso aiutarti nel contestualizzare la tua scelta e puntarti nella direzione migliore (anche se questo articolo dovrebbe già averti chiarito parecchi dubbi!)
 A presto,
 Andrea
-Commenti dalla community"
+Commenti dalla community",Quando e quando non utilizzare il machine learning nella tua strategia aziendale,Fai scelte intelligenti per la tua strategia aziendale: quando utilizzare il machine learning e quando optare per soluzioni più semplici. Esplora i vantaggi e le sfide dell'adozione dei modelli di apprendimento automatico per prendere decisioni informate,Andrea D'Agostino,2023-07-04
 https://www.diariodiunanalista.it/posts/raggruppamento-testuale-con-tf-idf/,"Il TF-IDF è una tecnica di vettorizzazione molto conosciuta e documentata nel data science. La vettorizzazione è l'atto di convertire un dato in un formato numerico in modo tale che un modello statistico possa interpretarlo e fare le predizioni.
 In questo articolo vedremo come convertire un corpus di testi in formato numerico e applicheremo degli algoritmi di apprendimento automatico per far emergere pattern e anomalie interessanti.
 Metodologia
@@ -6825,7 +6814,7 @@ plt.ylabel(""X1"", fontdict={""fontsize"": 16})
 # creiamo diagramma a dispersione con seaborn, dove hue è la classe usata per raggruppare i dati
 sns.scatterplot(data=df, x='x0', y='x1', hue='cluster', palette=""viridis"")
 plt.show()
-Commenti dalla community"
+Commenti dalla community",Raggruppamento (clustering) di testi con TF-IDF,Scoprire anomalie e pattern interessanti in dati testuali usando l'algoritmo TF-IDF e modelli di clustering in Python,Andrea D'Agostino,2021-09-30
 https://www.diariodiunanalista.it/posts/rappresentazioni-vettoriali-per-il-machine-learning/,"Sviluppatori di modelli di machine learning sfruttano rappresentazioni numeriche del mondo per creare e addestrare algoritmi predittivi.
 Queste rappresentazioni permettono alla macchina di imparare la relazione tra di essi e la variabile che si vuole predire.
 Immaginiamo che un vettore non sia altro che una lista di numeri
@@ -6929,7 +6918,7 @@ In questo post abbiamo visto come i vettori possano essere utilizzati per rappre
 - come posso migliorare questa rappresentazione?
 sono fondamentali, e il team che riesce a rispondere adeguatamente a queste domande creerà dei sistemi migliori.
 I data scientist vedono il mondo in termini di vettori.
-Commenti dalla community"
+Commenti dalla community",Rappresentazioni vettoriali per il Machine Learning,"L'importanza dei vettori nella rappresentazione di concetti complessi in formato numerico per lo sviluppo di modelli di machine learning. Tecniche di rappresentazione vettoriale come One-Hot Encoding, embedding, TF-IDF e bag of words, al fine di catturare relazioni semantiche tra i concetti",Andrea D'Agostino,2023-04-21
 https://www.diariodiunanalista.it/posts/recensione-storytelling-with-data/,"Ho sempre pensato che la data visualization meriti uno studio approfondito per essere fatta come si deve.
 Spesso e volentieri usiamo grafici che secondo noi hanno senso, senza soffermarci su quale sia la modalità migliore per trasmettere il messaggio.
 Grazie a Storytelling with Data, ho scoperto che ci sono delle metodologie e ""trucchetti"" che fanno leva su principi di percezione visiva e linee guida di design che migliorano notevolmente l'efficacia delle nostre visualizzazioni.
@@ -6973,7 +6962,7 @@ Nel 2015, Cole Knaflic mi ha fatto appassionare alla data visualization e mi ha 
 Le sue lezioni sono applicabili a tutti i livelli e anche con tutti gli strumenti di analisi più rilevanti, come Excel e alcune librerie in Python come Matplotlib e Seaborn.
 Il prezzo del libro è anche molto onesto secondo me. Al momento della scrittura di questo articolo il suo prezzo su Amazon è di circa 35€.
 Non posso far altro che consigliarlo, dandogli un voto pieno.
-Commenti dalla community"
+Commenti dalla community",Recensione: Storytelling With Data,"Recensione del manuale di data visualization Storytelling with Data di Cole Nussbaumer Knaflic, esperta di comunicazione visiva. Una lettura consigliata pienamente a tutti gli interessati di data viz.",Andrea D'Agostino,2022-12-23
 https://www.diariodiunanalista.it/posts/regolarizzazione-l1-vs-l2-nel-machine-learning-differenze/,"Il Machine Learning è una disciplina che sta avendo un enorme sviluppo in ambito tecnologico e industriale.
 Grazie ai suoi algoritmi e alle sue tecniche di modellazione, è possibile costruire modelli in grado di apprendere da dati passati, generalizzare e fare previsioni su nuovi dati.
 Tuttavia, in alcuni casi, i modelli possono adattarsi troppo ai dati di addestramento e perdere la loro capacità di generalizzazione. Questo fenomeno si chiama overfitting.
@@ -7088,7 +7077,7 @@ Conclusioni
 In conclusione, la regolarizzazione è un'importante tecnica di machine learning che aiuta a migliorare le prestazioni dei modelli, evitando l'overfitting sui dati di addestramento.
 Le regolarizzazioni L1 e L2 sono le tecniche più utilizzate per questo scopo. L'implementazione di queste tecniche è relativamente semplice in Python grazie alle librerie come scikit-learn e NumPy.
 Nel nostro esempio abbiamo visto come la regolarizzazione influisca sulla performance del modello di regressione logistica e come il valore di C influisca sulla regolarizzazione stessa. Abbiamo anche esaminato come i coefficienti dei modelli cambiano al variare del valore di C e come la regolarizzazione L1 e L2 influisce in modo diverso sui coefficienti del modello.
-Commenti dalla community"
+Commenti dalla community","Regolarizzazione L1 vs L2 nel Machine Learning: differenze, vantaggi e come applicarle in Python",In questo articolo approfondiremo le tecniche di regolarizzazione L1 e L2 nel Machine Learning e spiegheremo perché sono importanti per prevenire l'overfitting dei modelli. Scopriremo inoltre come applicare queste tecniche utilizzando Python,Andrea D'Agostino,2023-02-22
 https://www.diariodiunanalista.it/posts/rete-convolutiva-su-mnist/,"Le reti convolutive vengono utilizzate per processare dati organizzati a griglia come ad esempio immagini e video.
 L'operazione di convoluzione è importante perché permette di trovare parti dell'immagine interessanti come ad esempio i contorni degli oggetti di un immagine.
 Queste reti godono delle seguenti proprietà:
@@ -7306,7 +7295,7 @@ Durante il percorso di questo articolo, abbiamo esplorato le principali componen
 Abbiamo visto come queste reti si adattino perfettamente al riconoscimento delle immagini, rivelando un'efficacia sorprendente nel catturare pattern complessi e rappresentare le immagini con elevate capacità discriminative.
 Il dataset MNIST si è rivelato un eccellente punto di partenza per apprendere e sperimentare con le CNN. La sua comprensibilità e la sua dimensione relativamente ridotta hanno rappresentato un'opportunità per acquisire familiarità con la progettazione di reti neurali e l'ottimizzazione dei parametri.
 Inoltre, abbiamo esplorato l'importanza delle callback nel processo di addestramento del modello, in particolare EarlyStopping che ci ha permesso di evitare l'overfitting e migliorare l'efficienza dell'addestramento.
-Commenti dalla community"
+Commenti dalla community",Deep Learning e MNIST: Come utilizzare una rete neurale convolutiva per il riconoscimento di immagini,Come approcciare al riconoscimento delle immagini e delle cifre MNIST con una rete neurale convolutiva usando Keras e TensorFlow,Marco Speciale,2023-07-24
 https://www.diariodiunanalista.it/posts/selezione-delle-feature-con-boruta/,"La fase di selezione delle feature presenti nel set di addestramento è di fondamentale importanza in qualsiasi progetto di machine learning.
 Spiegherò l'algoritmo Boruta, in grado di creare una classifica delle nostre caratteristiche, dalla più importante alla meno impattante per il nostro modello. Boruta è semplice da usare e più potente delle tradizionali tecniche usate per lo stesso compito.
 Introduzione
@@ -7444,7 +7433,7 @@ print(df)
 mse = ((df['pred'] - df['observed']) ** 2).mean()
 rmse = np.sqrt(mse)
 print(""\n------MSE------\n"", round(rmse, 3))
-Commenti dalla community"
+Commenti dalla community",Selezione delle feature con Boruta,L'algoritmo Boruta serve per scoprire quali sono le feature più importanti per un modello predittivo,Andrea D'Agostino,2021-11-28
 https://www.diariodiunanalista.it/posts/servire-modelli-di-machine-learning-con-fastapi/,"Hai creato un modello predittivo sul tuo dataset. Questo performa bene sia in cross-validazione che sul test set.
 Molto bene.
 Ma ora che ci fai?
@@ -7651,7 +7640,7 @@ Spero che questo articolo ti abbia aiutato ad inserire un tassello in più nella
 Se ci sono domande o dubbi, non esitare a commentare o a scrivermi.
 Alla prossima,
 Andrea
-Commenti dalla community"
+Commenti dalla community",Servire modelli di machine learning con FastAPI,"Una guida a servire un modello di machine learning via API con FastAPI, Pydantic e Sklearn",Andrea D'Agostino,2023-08-16
 https://www.diariodiunanalista.it/posts/tagging-di-contenuti-con-la-logica-fuzzy-in-python/,"Con il termine logica fuzzy (fuzzy logic) si intendono tutte quelle regole e funzioni che vanno ad applicare una euristica basata sulla approssimazione della verità - la parola ""fuzzy"" in inglese si traduce come poco chiaro, sfocato. Questa parola non è scelta a caso e fa proprio riferimento al modo in cui funzionano questi ragionamenti.
 Nell'informatica, la fuzzy logic vuole aiutare a fornire un grado di verità invece che la verità vera e propria. È un insieme di ragionamenti che permettono di rispondere in maniera imprecisa a domande altrettanto imprecise.
 Un esempio di fuzzy logic
@@ -7814,7 +7803,7 @@ tagged_df = pd.concat([posts, tags], axis=1)
 return tagged_df
 tagged_df = fuzzy_tagging(tags=tags, articles=articles)
 tagged_df
-Commenti dalla community"
+Commenti dalla community",Tagging di contenuti con la logica fuzzy in Python,Creazione di un corpus di dati testuali in Python e taggare i testi al suo interno attraverso logica fuzzy con la libreria The Fuzz. Progetto basato sull'automazione di un task tipicamente molto lungo e noioso.,Andrea D'Agostino,2022-10-15
 https://www.diariodiunanalista.it/posts/tecniche-di-data-visualization-dal-grafico-allo-storytelling/,"È raro trovare qualcuno bravo a comunicare efficacemente il significato dei dati.
 Sui social vedo spesso grafici che sembrano belli, puliti, chiari e che evocano il famigerato effetto wow, ma che ad una ispezione più approfondita falliscono a comunicare il significato e la giusta interpretazione da dare ai dati.
 L'autore della visualizzazione si concentra su dettagli che non aiutano la comprensione di quello che si osserva, come scrivere testi descrittivi, ripetere informazioni già conosciute e dare rilevanza ad elementi non rilevanti. Il risultato è un grafico pieno di elementi pittorici, con colori sgargianti che dominano la scena e poche o nessuna indicazione che aiuta il cervello dell'osservatore a dar senso di quello che c'è su schermo.
@@ -8068,7 +8057,7 @@ Questo è un peccato, ma anche una opportunità, perché il mondo diventa sempre
 Invito il lettore interessato a leggere Storytelling with Data di Knaflic, recensito in questo blog, per apprendere i dettagli che rendono efficace la comunicazione visiva basata sui dati.
 Al prossimo articolo,
 Andrea 👋
-Commenti dalla community"
+Commenti dalla community",Tecniche di data visualization: dal grafico allo storytelling,Una guida alla data visualization e ai principi che la sorreggono. Visualizzare grafici efficaci e fare storytelling per migliorare le abilità di comunicazione visiva e presentazioni.,Andrea D'Agostino,2023-01-02
 https://www.diariodiunanalista.it/posts/un-paradigma-per-la-selezione-del-modello/,"In ogni progetto di machine learning saremo posti di fronte all'esigenza di dover selezionare un modello per iniziare migliorare quella che è la nostra baseline di partenza.
 Infatti, se la baseline ci da un modello di partenza utile per capire cosa possiamo aspettarci da una soluzione molto semplice, un modello selezionato attraverso una metodologia specifica ci aiuta entrare nella fase di ottimizzazione del progetto.
 La metodologia
@@ -8134,7 +8123,7 @@ plt.show()
 Il risultato della selezione
 Il risultato finale sarà questo:
 Da qui si nota come RandomForest e GradientBoostingMachine siano i più performanti. Possiamo quindi iniziare a creare nuovi esperimenti e a testare ulteriormente questi due modelli.
-Commenti dalla community"
+Commenti dalla community",Selezione del modello con Sklearn,Metodologia e codice Python per selezionare il modello migliore per il tuo problema di machine learning,Andrea D'Agostino,2021-09-30
 https://www.diariodiunanalista.it/posts/valutare-il-livello-di-competenza-linguistica-col-machine-learning/,"Questo è il primo articolo che si basa su una competizione Kaggle. Nonostante non abbia raggiunto il top della ladder nella competizione, il notebook di riferimento ha ricevuto una medaglia d'oro, che è comunque un ottimo risultato.
 Per chi non lo sapesse, Kaggle è una delle piattaforme di riferimento non solo per l'apprendimento e la condivisione di materiale intorno alla data science e al machine learning, ma anche per proporre competizioni basate sui dati.
 Aziende importanti, del calibro di Google e Facebook, creano competizioni a premi per chiamare e riunire la community dell'IA ad aiutarli a risolvere problemi importanti che richiedono soluzioni basate sulla IA.
@@ -8401,7 +8390,7 @@ In questo articolo ho mostrato come, in modo semplice, sia possibile creare una 
 È sicuramente possibile migliorare tale approccio e architettura del modello. Ad esempio, si potrebbe fare feature engineering e aggiungere altre variabili che provengono dal testo, come lo score Flesch-Kincaid che indica il grado di leggibilità del testo.
 Condivido anche il link al repository Github di questo progetto.
 Alla prossima 👋
-Commenti dalla community"
+Commenti dalla community",Valutare il livello di competenza linguistica col machine learning,Strategia e modellazione della competizione Kaggle dove si prevede la competenza linguistica di studenti liceali che studiano l'inglese,Andrea D'Agostino,2023-06-03
 https://www.diariodiunanalista.it/posts/valutazione-delle-performance-di-un-modello-di-classificazione/,"La fase di valutazione del modello inizia quando creiamo un set di validazione che consiste in esempi che l'algoritmo di apprendimento non ha visto durante l'addestramento. Se il nostro modello si comporta bene su questo set allora possiamo dire che generalizza bene ed è di buona qualità.
 Il modo più comune per valutare se un modello è valido o meno è calcolare una metrica di performance proprio sul set di validazione o di test.
 Questo articolo si concentrerà sulle metriche di performance per i modelli di classificazione. Vale la pena specificarlo perché task di regressione hanno metriche tracciabili completamente diverse. Qui un articolo sulle metriche di valutazione di un modello di regressione.
@@ -8479,7 +8468,7 @@ Sembra uno scioglilingua, ma in realtà questa formula si comporta come un coeff
 Conclusione
 Come per le metriche valutazione dei modelli di regressione, Sklearn mette a disposizione parecchi metodi per calcolare rapidamente queste metriche. Qui un link alla documentazione.
 Come nota finale, queste sono metriche per la valutazione di un classificatore binario. Per la classificazione multi-classe, ad esempio, basta applicare una di queste metriche ad ogni classe e poi applicare una strategia che vada a generalizzare su tutti gli esempi, come la media (micro/macro averaging). Ma questo è un discorso per un altro articolo :)
-Commenti dalla community"
+Commenti dalla community",Valutazione delle performance di un modello di classificazione binaria,Una panoramica delle metriche più comuni usate per valutare la qualità di un modello di classificazione binaria,Andrea D'Agostino,2022-08-17
 https://www.diariodiunanalista.it/posts/valutazione-delle-prestazioni-di-un-modello-di-regressione/,"La fase di valutazione del modello inizia quando creiamo un set di validazione che consiste in esempi che l'algoritmo di apprendimento non ha visto durante l'addestramento.
 Se il nostro modello si comporta bene su questo set allora possiamo dire che generalizza bene ed è di buona qualità.
 Il modo più comune per valutare se un modello è valido o meno è calcolare una metrica di performance proprio sul set di validazione o di test.
@@ -8602,7 +8591,7 @@ Si tratta i Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow di
 Se vuoi invece continuare a leggere materiale introduttivo al machine learning e data science e data analytics in Python, ti linko la pagina dedicata di questo blog che contiene un indice di contenuto nella quale puoi orientarti.
 Alla prossima,
 Andrea
-Commenti dalla community"
+Commenti dalla community",Valutazione delle performance di un modello di regressione,"Una panoramica di alcune delle metodologie valutare la qualità di un modello di regressione. Parleremo di errore al quadratico medio, errore assoluto medio errore assoluto mediano, il tasso di errore delle previsioni quasi corrette e altre metriche",Andrea D'Agostino,2022-01-07
 https://www.diariodiunanalista.it/posts/vulnerabilita-lavorativa-e-ia/,"Stiamo vivendo una rivoluzione. L'intelligenza artificiale sta (finalmente) facendosi spazio nelle nostre vite, creando tanto stupore ma anche tanta preoccupazione.
 Vedere come modelli di apprendimento automatico diventino parte della quotidianità e delle nostre vite lavorative mi riempie di orgoglio - far parte di questo mondo mi fa sentire al centro dell'innovazione e delle opportunità che si stanno creando.
 Tuttavia, questa emergenza di innovazione non suscita solo stupore e ammirazione, ma anche ansia e preoccupazione.
@@ -8682,7 +8671,7 @@ L'innovazione è basata sul machine learning. Nessun campo più di questo influe
 Vedremo robot domestici con i quali converseremo come se fossero dei compagni, e interfacce che richiederanno sempre meno intervento fisico (NeuraLink, per riferimento). Tutto questo è innegabile - è solo questione di tempo.
 Dobbiamo comprendere che il futuro che abbiamo sempre visto nei film è qui, e sta solo iniziando.
 Se non lo facciamo, le conseguenza sono nostre. La preoccupazione è giusta a quel punto.
-Commenti dalla community"
+Commenti dalla community",La vulnerabilità lavorativa nell'era dell'IA,Pensieri riguardo la preoccupazione che affligge professionisti e non riguardo l'avvento della IA e la paura di essere sostituiti. Parlo di come l'IA non sia una minaccia ma uno strumento da sfruttare quanto prima per migliorare le nostre vite,Andrea D'Agostino,2023-04-14
 https://www.diariodiunanalista.it/privacy-policy/,"Diario Di Un Analista utilizza i seguenti dati dell'utente ai fini di migliorare l'esperienza e di fornire notifiche sulle pubblicazioni e altre informazioni pertinenti.
 - utilizzo del sito web
 - indirizzo email
@@ -8696,7 +8685,7 @@ Cookie
 Diario Di Un Analista e le terze parti menzionate utilizza i cookie per finalità tecniche.
 Leggi la privacy policy completa qui
 Privacy Policy
-Diario Di Un Analista utilizza i seguenti dati dell'utente ai fini di migliorare l'esperienza e di fornire notifiche sulle pubblicazioni e altre informazioni pertinenti."
+Diario Di Un Analista utilizza i seguenti dati dell'utente ai fini di migliorare l'esperienza e di fornire notifiche sulle pubblicazioni e altre informazioni pertinenti.",Privacy Policy,Diario Di Un Analista utilizza i seguenti dati dell'utente ai fini di migliorare l'esperienza e di fornire notifiche sulle pubblicazioni e altre informazioni pertinenti. - utilizzo del sito web - indirizzo email - cookie Utilizzo del sito web Questo blog utilizza Google Analytics e Google Tag Manager per tracciare le,Andrea D'Agostino,2022-10-11
 https://www.diariodiunanalista.it/signin/,"Accedi
 Invia link di accesso
 Elaborazione della tua richiesta
@@ -8705,7 +8694,7 @@ Non hai ancora un account?
 Registrati
 Ottimo!
 Controlla la tua casella di posta e clicca sul link per completare l’accesso.
-Torna alla homepage"
+Torna alla homepage",Accedi,"Blog di guide e tecniche per i tuoi progetti di Data Science e Machine Learning. Consigli su progetti e carriera. Newsletter di settore su IA, tech e LLM.",Andrea D'Agostino,2023-04-28
 https://www.diariodiunanalista.it/signup/,"Diventa membro della community
 Continua
 Elaborazione della tua richiesta
@@ -8714,75 +8703,4 @@ Hai già un account?
 Accedi
 Ottimo!
 Controlla la tua casella di posta e clicca sul link per confermare la registrazione.
-Torna alla homepage"
-https://www.diariodiunanalista.it/tag/carriera/,"Cosa è l'IA generativa e perché sta ridefinendo i confini del possibile attraverso tecnologie che permettono alle macchine non solo di apprendere ma anche di creare
-Carriera
-Una lista di software utili per la gestione di progetti di data science e la raccolta di idee e contenuti
-Perché prendere appunti nel modo corretto è aiuta enormemente nell'organizzazione di un progetto di data science o analytics
-Le migliori risorse per imparare Python online. Queste sono state selezionate in quanto hanno avuto un grosso impatto sul mio sviluppo da programmatore e a distanza di anni si rivelano essere ancora delle pietre miliari per la mia formazione.
-L'importanza di costruire il proprio dataset invece di usare una soluzione già pronta"
-https://www.diariodiunanalista.it/tag/data-analytics/,"Una guida introduttiva agli algoritmi di clustering: cosa sono, quali sono, perché sono importanti e come valutarli nel contesto dell'analisi dei dati e la data science
-Data Analytics
-Impara come usare la PCA in Python e Sklearn per trasformare un dataset multidimensionale in un numero arbitrario di dimensioni e visualizzare i dati ridotti con Matplotlib
-Una guida su come approcciare le variabili categoriali presenti all'interno di un dataset ai fini del machine learning e data science
-Il campionamento statistico è fondamentale per ottenere informazioni sulla popolazione di interesse in modo efficiente. In questo articolo, esploreremo il concetto di campionamento statistico, le sue tecniche più comuni e l'utilizzo del ricampionamento per stimare la precisione delle stime.
-Un articolo che esplora le tecniche per identificare le anomalie (outlier detection) nei dataset. Scopri come utilizzare la visualizzazione dei dati, score z e tecniche di clustering per individuare valori anomali
-Una guida alla data visualization e ai principi che la sorreggono. Visualizzare grafici efficaci e fare storytelling per migliorare le abilità di comunicazione visiva e presentazioni.
-Recensione del manuale di data visualization Storytelling with Data di Cole Nussbaumer Knaflic, esperta di comunicazione visiva. Una lettura consigliata pienamente a tutti gli interessati di data viz.
-C'è davvero differenza tra data science, data engineering e data analytics? L'intero processo end-to-end di raccolta, gestione e analisi del dato viene diviso secondo questi tre termini - propongo la mia interpretazione olistica dell'intero processo.
-Una attività di feature engineering può essere molto utile per migliorare le performance di un modello predittivo. Questa però può peggiorare i nostri risultati se non teniamo a mente certi principi da evitare."
-https://www.diariodiunanalista.it/tag/flusso-di-coscienza/,"1 post
-Pensieri riguardo la preoccupazione che affligge professionisti e non riguardo l'avvento della IA e la paura di essere sostituiti.
-Parlo di come l'IA non sia una minaccia ma uno strumento da sfruttare quanto prima per migliorare le nostre vite
-Ti sei iscritto con successo a Diario Di Un Analista | Data Science, Machine Learning & Analytics
-Ben tornato! Hai effettuato l’accesso con successo.
-Ottimo! Ti sei registrato con successo.
-Successo! La tua email è stata aggiornata.
-Il tuo link è scaduto
-Successo! Controlla la tua casella di posta per il link magico per accedere."
-https://www.diariodiunanalista.it/tag/kaggle/,"Strategia e modellazione della competizione Kaggle dove si prevede la competenza linguistica di studenti liceali che studiano l'inglese
-Kaggle
-1 post
-Strategia e modellazione della competizione Kaggle dove si prevede la competenza linguistica di studenti liceali che studiano l'inglese"
-https://www.diariodiunanalista.it/tag/llm-e-prompt-engineering/,"Cosa è l'IA generativa e perché sta ridefinendo i confini del possibile attraverso tecnologie che permettono alle macchine non solo di apprendere ma anche di creare
-LLM e Prompt Engineering
-2 post
-Il prompt engineering consiste nello sviluppare e ottimizzare i prompt (cioè le domande che vengono poste al modello da parte dell'umano) al fine di ottenere risposte più precise da parte dei modelli linguistici"
-https://www.diariodiunanalista.it/tag/machine-learning/,"Cosa è l'IA generativa e perché sta ridefinendo i confini del possibile attraverso tecnologie che permettono alle macchine non solo di apprendere ma anche di creare
-Machine Learning
-Una guida introduttiva ai concetti del machine learning e data science per principianti. Orientati con dei consigli diretti proprio a te che sei novizio e che vuoi diventare un esperto di machine learning
-Una guida introduttiva agli algoritmi di clustering: cosa sono, quali sono, perché sono importanti e come valutarli nel contesto dell'analisi dei dati e la data science
-Impara come usare la PCA in Python e Sklearn per trasformare un dataset multidimensionale in un numero arbitrario di dimensioni e visualizzare i dati ridotti con Matplotlib
-Una guida a servire un modello di machine learning via API con FastAPI, Pydantic e Sklearn
-L'apprendimento non supervisionato è una branca fondamentale dell'analisi dei dati che si concentra sulla scoperta di strutture nascoste nei dati senza la presenza di etichette di output.
-Il data leakage rappresenta, insieme all'over/underfitting, la causa principale di fallimento di progetti di machine learning che vanno in produzione. Scopri come evitarlo in questo articolo.
-Deep Learning e MNIST: Come utilizzare una rete neurale convolutiva per il riconoscimento di immagini
-Come approcciare al riconoscimento delle immagini e delle cifre MNIST con una rete neurale convolutiva usando Keras e TensorFlow
-Fai scelte intelligenti per la tua strategia aziendale: quando utilizzare il machine learning e quando optare per soluzioni più semplici. Esplora i vantaggi e le sfide dell'adozione dei modelli di apprendimento automatico per prendere decisioni informate"
-https://www.diariodiunanalista.it/tag/progetti/,"Deep Learning e MNIST: Come utilizzare una rete neurale convolutiva per il riconoscimento di immagini
-Come approcciare al riconoscimento delle immagini e delle cifre MNIST con una rete neurale convolutiva usando Keras e TensorFlow
-Come approcciare al riconoscimento delle immagini e delle cifre MNIST con una rete neurale convolutiva usando Keras e TensorFlow
-Strategia e modellazione della competizione Kaggle dove si prevede la competenza linguistica di studenti liceali che studiano l'inglese
-PyTorch con Python: introduzione da addestramento a predizione. PyTorch è uno dei framework di deep learning più famosi e imparare questo strumento diventa fondamentale se si vuole costruire una carriera nel campo della IA applicata.
-Creazione di un corpus di dati testuali in Python e taggare i testi al suo interno attraverso logica fuzzy con la libreria The Fuzz. Progetto basato sull'automazione di un task tipicamente molto lungo e noioso.
-Un tentativo di identificare pattern nel mercato azionario attraverso un algoritmo custom di raggruppamento. Parte 1 di N.
-Classificare immagini di cani e gatti utilizzando una rete neurale convoluzionale in Tensorflow
-Un paradigma facile ed efficiente per creare un corpus da articoli di blog online
-Come installare, attivare e usare un ambiente virtuale nel data science
-Come ho usato conoscenze di base sulla probabilità per creare un software di generazione NFT"
-https://www.diariodiunanalista.it/tag/python/,"Una guida introduttiva agli algoritmi di clustering: cosa sono, quali sono, perché sono importanti e come valutarli nel contesto dell'analisi dei dati e la data science
-Python
-Impara come usare la PCA in Python e Sklearn per trasformare un dataset multidimensionale in un numero arbitrario di dimensioni e visualizzare i dati ridotti con Matplotlib
-Una guida a servire un modello di machine learning via API con FastAPI, Pydantic e Sklearn
-Scopri come creare una classe chiamata Benchmark in Python per confrontare e valutare le prestazioni dei modelli di apprendimento automatico utilizzando la validazione incrociata e la visualizzazione dei risultati
-Pydantic è una libreria Python che ci consente di strutturare e convalidare i dati in modo efficiente. Applicazioni in Python e nel contesto del Machine Learning
-Le migliori risorse per imparare Python online. Queste sono state selezionate in quanto hanno avuto un grosso impatto sul mio sviluppo da programmatore e a distanza di anni si rivelano essere ancora delle pietre miliari per la mia formazione.
-Come installare, attivare e usare un ambiente virtuale nel data science
-Confronto di 7 algoritmi in task di estrazione di parole chiave su un corpus di 2000 documenti"
-https://www.diariodiunanalista.it/tag/recensioni/,"Recensione del manuale di data visualization Storytelling with Data di Cole Nussbaumer Knaflic, esperta di comunicazione visiva. Una lettura consigliata pienamente a tutti gli interessati di data viz.
-Recensioni
-1 post
-Recensione del manuale di data visualization Storytelling with Data di Cole Nussbaumer Knaflic, esperta di comunicazione visiva. Una lettura consigliata pienamente a tutti gli interessati di data viz."
-https://www.diariodiunanalista.it/tag/statistica/,"Il campionamento statistico è fondamentale per ottenere informazioni sulla popolazione di interesse in modo efficiente. In questo articolo, esploreremo il concetto di campionamento statistico, le sue tecniche più comuni e l'utilizzo del ricampionamento per stimare la precisione delle stime.
-Statistica
-1 post"
+Torna alla homepage",Diventa membro della community,"Blog di guide e tecniche per i tuoi progetti di Data Science e Machine Learning. Consigli su progetti e carriera. Newsletter di settore su IA, tech e LLM.",Andrea D'Agostino,2023-04-28

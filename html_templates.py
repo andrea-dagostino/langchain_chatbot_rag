@@ -1,68 +1,57 @@
 css = """<style>
-/* Container & General Layout */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f4f4f4;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
+/* Base styles for chat messages */
 .chat-message {
-    border-radius: 20px;
-    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Bot Message Styling */
-.chat-message.bot {
-    background-color: #e6e6ff;
+/* Avatar styling */
+.chat-message .avatar img {
+    border-radius: 50%;
+    max-height: 78px;
+    max-width: 78px;
+    object-fit: cover;
+    margin-right: 10px;
 }
 
-.chat-message.bot .avatar img {
-    border: 2px solid #3333ff;
+/* Message bubble styling */
+.chat-message .message {
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-.chat-message.bot .message {
-    background-color: #ccf;
+/* Bot message styling */
+.bot .message {
+    background-color: #e0e0e0;
     color: #333;
-    border: 1px solid #3333ff;
 }
 
-/* User Message Styling */
-.chat-message.user {
-    background-color: #fff0f0;
+/* User message styling */
+.user .message {
+    background-color: #007bff;
+    color: #fff;
+    text-align: right;
 }
 
-.chat-message.user .avatar img {
-    border: 2px solid #ff3333;
-}
-
-.chat-message.user .message {
-    background-color: #fcc;
-    color: #333;
-    border: 1px solid #ff3333;
-}
-
-/* Responsiveness and Media Queries */
-@media (max-width: 600px) {
-    .container {
-        padding: 10px;
+/* Responsive design adjustments */
+@media screen and (max-width: 768px) {
+    .chat-message {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .chat-message .avatar img {
-        max-width: 50px;
+        margin-bottom: 5px;
     }
 }
-
-/* Typography and Spacing */
-.message {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.5;
-    padding: 10px 15px;
-}
-
-</style>"""
+</style>
+"""
 
 bot_template = """
 <div class="chat-message bot">

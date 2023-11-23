@@ -18,7 +18,7 @@ ruff = "^0.1.6"
 chromadb = "^0.4.18"
 tiktoken = "^0.5.1"
 instructorembedding = "^1.0.1"
-pysqlite3-binary
+pysqlite3-binary = "^0.4.6"
 
 
 [build-system]

@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "ddua-embeddings"
 version = "0.1.0"
-description = ""
-authors = ["Andrea D'Agostino <andrea@dagtech.io>"]
+description = "This project is a chatbot application that LangChain, OpenAI and FAISS to talk to a the blog Diario Di Un Analista.it"
+authors = ["Andrea D'Agostino <andrea@diariodiunanalista.it>"]
 readme = "README.md"
 packages = [ { include = "src", from = "." } ]
 
@@ -15,10 +15,10 @@ trafilatura = "^1.6.2"
 python-dotenv = "^1.0.0"
 pandas = "^2.1.3"
 ruff = "^0.1.6"
-chromadb = "^0.4.18"
 tiktoken = "^0.5.1"
 instructorembedding = "^1.0.1"
 faiss-cpu = "^1.7.4"
+watchdog = "^3.0.0"
 
 
 [build-system]

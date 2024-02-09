@@ -5,10 +5,11 @@ import os
 
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.document_loaders import DataFrameLoader
-from langchain.embeddings import OpenAIEmbeddings, HuggingFaceInstructEmbeddings
-from langchain.vectorstores import Chroma, FAISS
+from langchain.embeddings import OpenAIEmbeddings  # HuggingFaceInstructEmbeddings
+from langchain.vectorstores import FAISS
 from langchain.chat_models import ChatOpenAI
-from langchain.llms import HuggingFaceHub
+
+# from langchain.llms import HuggingFaceHub
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationalRetrievalChain
 from langchain.prompts import (
@@ -18,12 +19,21 @@ from langchain.prompts import (
 )
 
 from html_templates import css, bot_template, user_template
-from langchain.llms import HuggingFaceHub
+# from langchain.llms import HuggingFaceHub
 
 from dotenv import load_dotenv
 
 
-def get_all_articles_from_df(df: pd.DataFrame):
+def get_all_articles_from_df(df: pd.DataFrame) -> tuple:
+    """
+    Extracts all articles from a DataFrame and returns them along with their corresponding URLs.
+
+    Args:
+        df (pd.DataFrame): DataFrame containing articles and URLs.
+
+    Returns:
+        tuple: A tuple containing all articles concatenated and a list of URLs.
+    """
     with open("./data/blog_description.txt", "w", encoding="utf-8") as f:
         blog_description = f.read()
     all_articles = ""
@@ -35,7 +45,16 @@ def get_all_articles_from_df(df: pd.DataFrame):
     return all_articles, all_links
 
 
-def get_text_chunks(all_articles, all_links):
+def get_text_chunks(all_articles) -> list:
+    """
+    Splits a long text into smaller chunks.
+
+    Args:
+        all_articles (str): The full text to be split into chunks.
+
+    Returns:
+        list: A list of text chunks.
+    """
     text_splitter = CharacterTextSplitter(
         separator="\n", chunk_size=1000, chunk_overlap=0, length_function=len
     )
@@ -43,11 +62,17 @@ def get_text_chunks(all_articles, all_links):
     return chunks
 
 
-def get_vectorstore():
+def get_vectorstore() -> FAISS:
+    """
+    Retrieves or creates a vector store for text chunks.
+
+    Returns:
+        FAISS: A FAISS vector store.
+    """
     embeddings = OpenAIEmbeddings()
     if not os.path.exists("./db"):
         print("CREATING DB")
-         # load data
+        # load data
         articles = pd.read_csv("./data/articles.csv")
         text_chunks = DataFrameLoader(
             articles, page_content_column="article"
@@ -65,9 +90,7 @@ def get_vectorstore():
             final_content = f"TITOLO: {title}\nDESCRIZIONE: {description}\nCONTENUTO: {content}\nLINK: {link}"
             doc.page_content = final_content
 
-        vectorstore = FAISS.from_documents(
-            text_chunks, embeddings
-        )
+        vectorstore = FAISS.from_documents(text_chunks, embeddings)
         vectorstore.save_local("./db")
     else:
         print("Loading vectorstore from disk")
@@ -78,7 +101,20 @@ def get_vectorstore():
     return vectorstore
 
 
-def get_conversation_chain(vectorstore, system_message_prompt, human_message_prompt):
+def get_conversation_chain(
+    vectorstore, system_message_prompt, human_message_prompt
+) -> ConversationalRetrievalChain:
+    """
+    Creates a conversational retrieval chain for chat messages.
+
+    Args:
+        vectorstore: The vector store for text chunks.
+        system_message_prompt: Template for system messages.
+        human_message_prompt: Template for human messages.
+
+    Returns:
+        ConversationalRetrievalChain: A chain for conversational retrieval.
+    """
     llm = ChatOpenAI(model="gpt-4")
     memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
     conversation_chain = ConversationalRetrievalChain.from_llm(
@@ -97,7 +133,13 @@ def get_conversation_chain(vectorstore, system_message_prompt, human_message_pro
     return conversation_chain
 
 
-def handle_userinput(user_question):
+def handle_userinput(user_question) -> None:
+    """
+    Handles user input and generates responses based on the conversation chain.
+
+    Args:
+        user_question (str): The user's question.
+    """
     response = st.session_state.conversation({"question": user_question})
     st.session_state.chat_history = response["chat_history"]
 
@@ -113,15 +155,18 @@ def handle_userinput(user_question):
             )
 
 
-def main():
+def main() -> None:
+    """
+    Main function to run the chatbot application.
+    """
     load_dotenv()
 
     st.set_page_config(
-        page_title="DDUA CHATBOT",
+        page_title="Chat with the Blog's Knowledge Base",
         page_icon=":books:",
     )
 
-    st.image("./logo.png", use_column_width=True)
+    st.image("./assets/logo.png", use_column_width=True)
     st.write(css, unsafe_allow_html=True)
 
     st.header("Chatta con la Knowledge Base del blog")
@@ -136,9 +181,7 @@ def main():
     with st.spinner("Elaborando risposta..."):
         if user_question:
             handle_userinput(user_question)
-   
-   
-   
+
     system_message_prompt = SystemMessagePromptTemplate.from_template(
         """Tu sei il chatbot ufficiale del blog Diario Di Un Analista.it. 
         Tu rispondi a domande riguardanti il blog e i suoi articoli.
@@ -168,7 +211,6 @@ def main():
     if st.session_state.vectorstore is None:
         st.session_state.vectorstore = get_vectorstore()
 
-        
     # create conversation chain
     st.session_state.conversation = get_conversation_chain(
         st.session_state.vectorstore, system_message_prompt, human_message_prompt
